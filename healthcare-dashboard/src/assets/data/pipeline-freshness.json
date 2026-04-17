@@ -1,0 +1,58 @@
+[
+  {
+    "sourceSystem": "EHR_Core",
+    "lastIngestedAt": "2026-04-17T00:23:43.7607835Z",
+    "expectedFrequencyMinutes": 15,
+    "status": "FRESH",
+    "recordCount": 15076
+  },
+  {
+    "sourceSystem": "ADT_Events",
+    "lastIngestedAt": "2026-04-17T00:27:43.7772026Z",
+    "expectedFrequencyMinutes": 5,
+    "status": "FRESH",
+    "recordCount": 8752
+  },
+  {
+    "sourceSystem": "Lab_Results",
+    "lastIngestedAt": "2026-04-16T23:16:43.7773466Z",
+    "expectedFrequencyMinutes": 30,
+    "status": "STALE",
+    "recordCount": 4335
+  },
+  {
+    "sourceSystem": "Radiology_Imaging_Index",
+    "lastIngestedAt": "2026-04-16T23:52:43.7815599Z",
+    "expectedFrequencyMinutes": 60,
+    "status": "FRESH",
+    "recordCount": 2025
+  },
+  {
+    "sourceSystem": "Pharmacy_Dispense",
+    "lastIngestedAt": "2026-04-16T23:02:43.7816406Z",
+    "expectedFrequencyMinutes": 20,
+    "status": "STALE",
+    "recordCount": 5105
+  },
+  {
+    "sourceSystem": "Scheduling_System",
+    "lastIngestedAt": "2026-04-17T00:27:43.7816989Z",
+    "expectedFrequencyMinutes": 10,
+    "status": "FRESH",
+    "recordCount": 7632
+  },
+  {
+    "sourceSystem": "Claims_Feed",
+    "lastIngestedAt": null,
+    "expectedFrequencyMinutes": 180,
+    "status": "MISSING",
+    "recordCount": 0
+  },
+  {
+    "sourceSystem": "CRM_Referrals",
+    "lastIngestedAt": "2026-04-17T00:05:43.7817991Z",
+    "expectedFrequencyMinutes": 45,
+    "status": "FRESH",
+    "recordCount": 2678
+  }
+]

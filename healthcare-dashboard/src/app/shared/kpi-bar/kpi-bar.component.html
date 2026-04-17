@@ -1,0 +1,22 @@
+<div class="kpi-bar">
+  <mat-card class="kpi-tile">
+    <mat-card-content>
+      <div class="kpi-label">Total Encounters</div>
+      <div class="kpi-value">{{ totalEncounters() | number }}</div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="kpi-tile kpi-tile--alert">
+    <mat-card-content>
+      <div class="kpi-label">Units Over Capacity</div>
+      <div class="kpi-value">{{ overCapacityCount() }}</div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="kpi-tile" [class.kpi-tile--danger]="isPipelineAlert()">
+    <mat-card-content>
+      <div class="kpi-label">Pipeline Health</div>
+      <div class="kpi-value">{{ pipelineScoreText() }}</div>
+    </mat-card-content>
+  </mat-card>
+</div>

@@ -1,0 +1,60 @@
+.unit-card {
+  height: 100%;
+}
+
+mat-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.status-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  &.badge--red {
+    background-color: #ffcdd2;
+    color: #b71c1c;
+  }
+
+  &.badge--amber {
+    background-color: #fff8e1;
+    color: #e65100;
+    border: 1px solid #f9a825;
+  }
+
+  &.badge--green {
+    background-color: #e8f5e9;
+    color: #1b5e20;
+  }
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+
+  .metric-label {
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.55);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .metric-value {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1565c0;
+  }
+}

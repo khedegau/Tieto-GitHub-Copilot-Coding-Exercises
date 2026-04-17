@@ -1,0 +1,6 @@
+<h2 class="section-title">Service Units</h2>
+<div class="cards-grid">
+  @for (snapshot of latestSnapshots(); track snapshot.snapshotId) {
+    <app-service-unit-card [snapshot]="snapshot" />
+  }
+</div>

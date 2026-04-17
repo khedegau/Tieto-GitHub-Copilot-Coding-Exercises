@@ -1,0 +1,13 @@
+.section-title {
+  padding: 0 16px;
+  margin: 16px 0 8px;
+  font-size: 1.1rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
