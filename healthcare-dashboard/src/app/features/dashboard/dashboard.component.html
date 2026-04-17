@@ -10,6 +10,16 @@
       </mat-button-toggle>
     }
   </mat-button-toggle-group>
+
+  <mat-form-field class="sort-field" appearance="outline" subscriptSizing="dynamic">
+    <mat-label>Sort by</mat-label>
+    <mat-select [value]="activeSort()" (selectionChange)="setSort($event.value)">
+      @for (opt of sortOptions; track opt.value) {
+        <mat-option [value]="opt.value">{{ opt.label }}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+
   <span class="result-count">{{ filteredSnapshots().length }} unit(s)</span>
 </div>
 
