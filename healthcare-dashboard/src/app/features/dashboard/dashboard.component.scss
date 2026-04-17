@@ -1,13 +1,52 @@
-.section-title {
-  padding: 0 16px;
-  margin: 16px 0 8px;
-  font-size: 1.1rem;
-  color: rgba(0, 0, 0, 0.7);
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 16px 8px;
+  flex-wrap: wrap;
+
+  .filter-label {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+  }
+
+  .result-count {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.45);
+    margin-left: auto;
+  }
+}
+
+::ng-deep {
+  .toggle-OVER_CAPACITY.mat-button-toggle-checked {
+    background-color: #b71c1c;
+    color: #fff;
+  }
+  .toggle-AT_CAPACITY.mat-button-toggle-checked {
+    background-color: #e65100;
+    color: #fff;
+  }
+  .toggle-UNDER_CAPACITY.mat-button-toggle-checked {
+    background-color: #1b5e20;
+    color: #fff;
+  }
+  .toggle-ALL.mat-button-toggle-checked {
+    background-color: #1565c0;
+    color: #fff;
+  }
 }
 
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 16px;
-  padding: 16px;
+  padding: 0 16px 16px;
+}
+
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+  padding: 32px 0;
 }

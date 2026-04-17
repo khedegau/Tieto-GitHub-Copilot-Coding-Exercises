@@ -1,6 +1,23 @@
-<h2 class="section-title">Service Units</h2>
+<div class="filter-bar">
+  <span class="filter-label">Filter by status:</span>
+  <mat-button-toggle-group
+    [value]="activeFilter()"
+    (change)="setFilter($event.value)"
+    aria-label="Capacity status filter">
+    @for (option of filterOptions; track option) {
+      <mat-button-toggle [value]="option" [class]="'toggle-' + option">
+        {{ option === 'ALL' ? 'All' : option.replace('_', ' ') }}
+      </mat-button-toggle>
+    }
+  </mat-button-toggle-group>
+  <span class="result-count">{{ filteredSnapshots().length }} unit(s)</span>
+</div>
+
 <div class="cards-grid">
-  @for (snapshot of latestSnapshots(); track snapshot.snapshotId) {
+  @for (snapshot of filteredSnapshots(); track snapshot.snapshotId) {
     <app-service-unit-card [snapshot]="snapshot" />
+  }
+  @if (filteredSnapshots().length === 0) {
+    <p class="no-results">No units match the selected filter.</p>
   }
 </div>
