@@ -1,0 +1,4076 @@
+{
+  "operationalSnapshots": [
+    {
+      "snapshotId": "99584bda-d39c-4415-9181-abba4147cc38",
+      "recordedAt": "2026-03-19T09:41:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 189,
+      "capacity": 164,
+      "encounterCount": 205,
+      "returnVisitCount": 38,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "67878524-8b85-4898-b199-32b0a8c39eae",
+      "recordedAt": "2026-03-19T08:50:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 111,
+      "capacity": 95,
+      "encounterCount": 114,
+      "returnVisitCount": 24,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "fea9fdb7-a7f6-41a5-8e5f-8b2bfb87266f",
+      "recordedAt": "2026-03-19T10:36:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 100,
+      "capacity": 80,
+      "encounterCount": 105,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c1c2f9e1-7e1d-4917-9bfd-aaaf7afe7e7c",
+      "recordedAt": "2026-03-19T10:05:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 95,
+      "capacity": 75,
+      "encounterCount": 103,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c2a96953-4942-45dc-93ad-11154e57678b",
+      "recordedAt": "2026-03-19T08:58:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 107,
+      "capacity": 87,
+      "encounterCount": 117,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a4168022-431f-4792-be0c-4cf290ff229f",
+      "recordedAt": "2026-03-19T08:40:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 131,
+      "capacity": 108,
+      "encounterCount": 126,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a4dbf4ed-c3b0-4288-80aa-e8ae635f0e2f",
+      "recordedAt": "2026-03-19T08:29:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 248,
+      "capacity": 206,
+      "encounterCount": 250,
+      "returnVisitCount": 31,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "725b0db4-c32e-4598-9ca4-2cf2692063d9",
+      "recordedAt": "2026-03-19T08:18:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 214,
+      "capacity": 180,
+      "encounterCount": 219,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "971ca53c-5ad7-4cc3-88a9-8f73a8e76cf6",
+      "recordedAt": "2026-03-19T10:00:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 172,
+      "capacity": 145,
+      "encounterCount": 183,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "39682c15-2edb-4bfd-9094-f0c3e64f35d7",
+      "recordedAt": "2026-03-19T10:22:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 107,
+      "capacity": 90,
+      "encounterCount": 97,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "56446364-52fe-4b0e-a7bd-4c171640c333",
+      "recordedAt": "2026-03-20T08:06:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 163,
+      "capacity": 168,
+      "encounterCount": 170,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "db263890-d50c-4b3b-917f-c75b5b4ac2f7",
+      "recordedAt": "2026-03-20T08:18:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 88,
+      "capacity": 97,
+      "encounterCount": 90,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "54571ff3-f500-492c-9cdf-d1aa18aaec2a",
+      "recordedAt": "2026-03-20T10:27:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 76,
+      "capacity": 82,
+      "encounterCount": 76,
+      "returnVisitCount": 7,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "2d56246b-3a3a-4769-9c9c-3fb1b8d14f84",
+      "recordedAt": "2026-03-20T08:36:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 72,
+      "capacity": 74,
+      "encounterCount": 72,
+      "returnVisitCount": 15,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "819d44ab-46bf-4bae-871b-f3416270d648",
+      "recordedAt": "2026-03-20T08:34:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 96,
+      "capacity": 90,
+      "encounterCount": 103,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5d8f9adc-8947-435f-b255-9eb377780bec",
+      "recordedAt": "2026-03-20T09:11:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 113,
+      "capacity": 105,
+      "encounterCount": 122,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0d36da08-49f9-4dbd-8893-f2cfc9fb39ae",
+      "recordedAt": "2026-03-20T09:05:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 222,
+      "capacity": 208,
+      "encounterCount": 238,
+      "returnVisitCount": 40,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "986f6171-4256-4a2f-957f-5375b528c215",
+      "recordedAt": "2026-03-20T08:33:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 196,
+      "capacity": 187,
+      "encounterCount": 200,
+      "returnVisitCount": 28,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5dde7cca-eb8b-4f30-9bc0-632e6ec2e91c",
+      "recordedAt": "2026-03-20T08:31:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 161,
+      "capacity": 144,
+      "encounterCount": 149,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "57ed4af7-231d-4d80-8455-bfd6a6fc2a9b",
+      "recordedAt": "2026-03-20T09:07:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 104,
+      "capacity": 95,
+      "encounterCount": 94,
+      "returnVisitCount": 22,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "26136d82-3c6c-4cc0-b3d9-9cef12d7a5d9",
+      "recordedAt": "2026-03-21T10:52:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 172,
+      "capacity": 132,
+      "encounterCount": 160,
+      "returnVisitCount": 31,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8bf04fa8-83cf-473c-b6f3-5ee91bd067e7",
+      "recordedAt": "2026-03-21T10:21:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 92,
+      "capacity": 73,
+      "encounterCount": 90,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "9e4cb2a5-dfbf-4aee-bb05-c23575506bd1",
+      "recordedAt": "2026-03-21T08:27:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 80,
+      "capacity": 63,
+      "encounterCount": 86,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1706513c-7951-49b1-9076-f41482c32c96",
+      "recordedAt": "2026-03-21T10:28:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 80,
+      "capacity": 59,
+      "encounterCount": 73,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8becd9fb-4837-44d5-82ad-0d78f6faf7f1",
+      "recordedAt": "2026-03-21T08:36:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 95,
+      "capacity": 70,
+      "encounterCount": 102,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "09ea31e9-3104-4818-a322-042cd8941c73",
+      "recordedAt": "2026-03-21T10:36:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 114,
+      "capacity": 82,
+      "encounterCount": 109,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "6317de89-0c1e-478c-9980-c1e526acfa2e",
+      "recordedAt": "2026-03-21T09:11:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 241,
+      "capacity": 168,
+      "encounterCount": 236,
+      "returnVisitCount": 44,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5c9f8a7f-4fda-42b8-9180-38fa5b0908cb",
+      "recordedAt": "2026-03-21T10:37:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 193,
+      "capacity": 141,
+      "encounterCount": 204,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "73ddffab-cb9b-455f-b18f-f9abe7e63a6a",
+      "recordedAt": "2026-03-21T10:57:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 150,
+      "capacity": 111,
+      "encounterCount": 160,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "4d3d09c7-6173-4e93-b918-148d17259878",
+      "recordedAt": "2026-03-21T09:55:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 86,
+      "capacity": 73,
+      "encounterCount": 84,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "fa498948-9946-4501-a70d-ea8cb96c0942",
+      "recordedAt": "2026-03-22T10:31:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 180,
+      "capacity": 127,
+      "encounterCount": 190,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "45cb1cd0-1a85-4b59-b325-35cfe02dde8a",
+      "recordedAt": "2026-03-22T10:34:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 110,
+      "capacity": 75,
+      "encounterCount": 111,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b2eae981-2422-4f7d-a4a4-abb35d8141a3",
+      "recordedAt": "2026-03-22T08:03:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 94,
+      "capacity": 63,
+      "encounterCount": 87,
+      "returnVisitCount": 11,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "124f87ab-cebb-4f33-a2a3-9a7821714887",
+      "recordedAt": "2026-03-22T09:59:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 85,
+      "capacity": 57,
+      "encounterCount": 87,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "dcd4be70-8d35-468b-9d22-c49fec591a34",
+      "recordedAt": "2026-03-22T09:28:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 100,
+      "capacity": 68,
+      "encounterCount": 102,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5dbdd77a-cced-4679-b3b6-15b1eb52682c",
+      "recordedAt": "2026-03-22T08:05:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 106,
+      "capacity": 82,
+      "encounterCount": 113,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "222af065-a0b2-434c-b3fd-1f08670fbcc8",
+      "recordedAt": "2026-03-22T08:23:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 214,
+      "capacity": 165,
+      "encounterCount": 224,
+      "returnVisitCount": 44,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "31f69465-e962-49d2-bfed-d6ca76d6841e",
+      "recordedAt": "2026-03-22T08:27:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 205,
+      "capacity": 144,
+      "encounterCount": 191,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c22ae8aa-bdb7-492b-9167-5a9220757628",
+      "recordedAt": "2026-03-22T10:19:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 169,
+      "capacity": 111,
+      "encounterCount": 166,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "25199c4b-68a6-4cdc-87be-6704b9f3940c",
+      "recordedAt": "2026-03-22T09:19:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 107,
+      "capacity": 73,
+      "encounterCount": 99,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "7e79aaca-ffe1-4984-a714-2cf53b509da8",
+      "recordedAt": "2026-03-23T10:29:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 158,
+      "capacity": 164,
+      "encounterCount": 154,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "26dd7497-9055-47e9-b7e1-047af7628de8",
+      "recordedAt": "2026-03-23T08:44:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 92,
+      "capacity": 95,
+      "encounterCount": 89,
+      "returnVisitCount": 13,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "b7ab67ce-3788-4812-82e8-ee44fda798ae",
+      "recordedAt": "2026-03-23T09:43:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 80,
+      "capacity": 84,
+      "encounterCount": 77,
+      "returnVisitCount": 8,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "6ddb6794-5afa-40ee-8b60-aafef88c712a",
+      "recordedAt": "2026-03-23T09:19:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 83,
+      "capacity": 74,
+      "encounterCount": 75,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b1d25dea-75cf-477c-9464-e8b4576cf3b8",
+      "recordedAt": "2026-03-23T10:01:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 93,
+      "capacity": 88,
+      "encounterCount": 88,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "ec40c3b2-db3e-44ba-b107-4760d43dffcf",
+      "recordedAt": "2026-03-23T08:18:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 104,
+      "capacity": 105,
+      "encounterCount": 101,
+      "returnVisitCount": 26,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "da15bc2a-df41-4566-830e-b6e3c5d10ff2",
+      "recordedAt": "2026-03-23T10:12:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 227,
+      "capacity": 216,
+      "encounterCount": 238,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "dafabb17-e19e-4653-8dc9-877ee13eba3f",
+      "recordedAt": "2026-03-23T09:57:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 191,
+      "capacity": 184,
+      "encounterCount": 174,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "6e542dea-1684-4330-99ca-2cf2dc70e018",
+      "recordedAt": "2026-03-23T10:48:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 160,
+      "capacity": 142,
+      "encounterCount": 144,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "12855e9c-77af-4723-bf1b-d5ff1a274d03",
+      "recordedAt": "2026-03-23T08:00:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 102,
+      "capacity": 93,
+      "encounterCount": 92,
+      "returnVisitCount": 24,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a71894f7-e7f1-42a6-9530-38eff94eeef3",
+      "recordedAt": "2026-03-24T10:26:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 190,
+      "capacity": 169,
+      "encounterCount": 200,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "45ac5ab8-f2ba-4718-a5ff-108906257b80",
+      "recordedAt": "2026-03-24T08:55:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 107,
+      "capacity": 94,
+      "encounterCount": 108,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "92485a80-fede-4ed7-9f5b-defdcb743037",
+      "recordedAt": "2026-03-24T08:36:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 86,
+      "capacity": 81,
+      "encounterCount": 78,
+      "returnVisitCount": 11,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "ecb008e0-e723-41d8-8ba1-7de0abde5194",
+      "recordedAt": "2026-03-24T09:01:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 83,
+      "capacity": 72,
+      "encounterCount": 79,
+      "returnVisitCount": 7,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "95fda84d-b853-4ca3-bede-0b4a91978401",
+      "recordedAt": "2026-03-24T08:00:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 93,
+      "capacity": 89,
+      "encounterCount": 86,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0a450e96-b83c-4f1a-a82b-41b2a9eac487",
+      "recordedAt": "2026-03-24T10:45:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 105,
+      "capacity": 107,
+      "encounterCount": 105,
+      "returnVisitCount": 27,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "f24cfc31-4c46-4451-92a9-9e28f1fa86e5",
+      "recordedAt": "2026-03-24T10:26:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 223,
+      "capacity": 208,
+      "encounterCount": 210,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "ecddae50-97b1-4294-a58d-e902799782a6",
+      "recordedAt": "2026-03-24T08:43:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 203,
+      "capacity": 185,
+      "encounterCount": 207,
+      "returnVisitCount": 44,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "573b6e7b-34ca-47db-a0f7-9c80d0a0638c",
+      "recordedAt": "2026-03-24T10:01:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 143,
+      "capacity": 144,
+      "encounterCount": 149,
+      "returnVisitCount": 29,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "4ccb4c3c-feaf-4d0c-9fbd-6415807abaa6",
+      "recordedAt": "2026-03-24T10:48:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 102,
+      "capacity": 91,
+      "encounterCount": 105,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e62c2816-a010-429b-8349-3377d0530a60",
+      "recordedAt": "2026-03-25T09:30:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 187,
+      "capacity": 165,
+      "encounterCount": 172,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "02ec1b42-77b6-434c-8ef4-70d328cb5fdb",
+      "recordedAt": "2026-03-25T10:58:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 96,
+      "capacity": 94,
+      "encounterCount": 101,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8c4d4fb2-f146-480a-bcb1-5ef61d1c705b",
+      "recordedAt": "2026-03-25T10:01:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 82,
+      "capacity": 84,
+      "encounterCount": 88,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "b9287c9b-bb20-4b2c-a30f-ff9153a6b8eb",
+      "recordedAt": "2026-03-25T10:58:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 73,
+      "capacity": 74,
+      "encounterCount": 71,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "369c73f6-79de-4f47-a170-815324225572",
+      "recordedAt": "2026-03-25T10:12:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 100,
+      "capacity": 89,
+      "encounterCount": 96,
+      "returnVisitCount": 9,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "31e2cdd3-2488-4dd8-bb5f-3c40f3647baf",
+      "recordedAt": "2026-03-25T09:17:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 115,
+      "capacity": 109,
+      "encounterCount": 123,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "227bc4da-5bb9-420a-8694-66575f69e8c6",
+      "recordedAt": "2026-03-25T09:04:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 219,
+      "capacity": 216,
+      "encounterCount": 241,
+      "returnVisitCount": 45,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5c9e83c9-dc86-45dd-a6e1-05330fe8d288",
+      "recordedAt": "2026-03-25T10:44:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 200,
+      "capacity": 188,
+      "encounterCount": 186,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b299bcb3-9908-4bfa-bfb4-a852c1fd108b",
+      "recordedAt": "2026-03-25T10:36:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 152,
+      "capacity": 142,
+      "encounterCount": 147,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e15d2fbd-c6ab-45a6-a2a6-d678cc4b28e7",
+      "recordedAt": "2026-03-25T09:27:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 105,
+      "capacity": 90,
+      "encounterCount": 96,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d16d4a3c-14c2-44be-91ba-bce6e264afdd",
+      "recordedAt": "2026-03-26T10:35:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 176,
+      "capacity": 167,
+      "encounterCount": 161,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c7c09c1b-a17a-4ca4-98e2-3e45a19bb04f",
+      "recordedAt": "2026-03-26T08:02:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 100,
+      "capacity": 97,
+      "encounterCount": 109,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "bff65a83-2990-4448-9c82-38472f0b4eac",
+      "recordedAt": "2026-03-26T10:38:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 83,
+      "capacity": 82,
+      "encounterCount": 77,
+      "returnVisitCount": 9,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "f9d5cfac-c6f2-4374-908e-c6a322213b53",
+      "recordedAt": "2026-03-26T10:38:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 88,
+      "capacity": 76,
+      "encounterCount": 95,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "32329075-7bf7-48ed-9219-82ceaf25d037",
+      "recordedAt": "2026-03-26T10:00:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 93,
+      "capacity": 87,
+      "encounterCount": 92,
+      "returnVisitCount": 10,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "113d1b96-791b-4ec8-99db-dcd1a086d6e8",
+      "recordedAt": "2026-03-26T08:08:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 113,
+      "capacity": 110,
+      "encounterCount": 121,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c057c049-baf0-4706-9a5c-bb7bf15bb5cb",
+      "recordedAt": "2026-03-26T09:56:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 203,
+      "capacity": 216,
+      "encounterCount": 214,
+      "returnVisitCount": 45,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "a3f99eef-8a41-4723-88cb-94da80c8a440",
+      "recordedAt": "2026-03-26T08:05:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 197,
+      "capacity": 183,
+      "encounterCount": 195,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "24c192a0-09b0-4e75-8466-fefade9ca93a",
+      "recordedAt": "2026-03-26T09:13:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 155,
+      "capacity": 147,
+      "encounterCount": 152,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a26d81ea-e8ed-4bb1-b40a-d3bd47f997dc",
+      "recordedAt": "2026-03-26T09:40:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 102,
+      "capacity": 94,
+      "encounterCount": 110,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "ab044667-9d51-4105-b5c6-db5b6555bcbf",
+      "recordedAt": "2026-03-27T08:03:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 189,
+      "capacity": 163,
+      "encounterCount": 206,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a787d8c7-f05b-42c7-a3e8-32e82cc8abef",
+      "recordedAt": "2026-03-27T08:06:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 103,
+      "capacity": 95,
+      "encounterCount": 105,
+      "returnVisitCount": 22,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "df1c9ecc-3e00-4219-88ed-d920a6233749",
+      "recordedAt": "2026-03-27T09:37:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 87,
+      "capacity": 82,
+      "encounterCount": 82,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "bedf31f9-092e-4e9e-85a5-4ebc3f10a884",
+      "recordedAt": "2026-03-27T08:30:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 80,
+      "capacity": 74,
+      "encounterCount": 77,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "bbb8bb90-1209-4a75-b148-482bdf1a6fe0",
+      "recordedAt": "2026-03-27T10:26:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 85,
+      "capacity": 89,
+      "encounterCount": 87,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "4629e9a1-f18c-4226-a024-25305b820575",
+      "recordedAt": "2026-03-27T09:51:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 117,
+      "capacity": 106,
+      "encounterCount": 123,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "af39d353-07be-4c2f-bba3-7dffb0234352",
+      "recordedAt": "2026-03-27T09:03:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 247,
+      "capacity": 215,
+      "encounterCount": 244,
+      "returnVisitCount": 34,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "ceaaa582-f8f2-47f9-aecd-0792c7fcc65f",
+      "recordedAt": "2026-03-27T09:34:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 199,
+      "capacity": 183,
+      "encounterCount": 195,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "120051e8-5dda-43ec-83fe-6cd239ec5db3",
+      "recordedAt": "2026-03-27T10:55:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 169,
+      "capacity": 142,
+      "encounterCount": 169,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "262de47b-78a5-41b9-9031-b873488593f7",
+      "recordedAt": "2026-03-27T08:12:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 98,
+      "capacity": 92,
+      "encounterCount": 94,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "94642d48-84df-483f-b62f-8af4b02e5444",
+      "recordedAt": "2026-03-28T10:26:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 232,
+      "capacity": 127,
+      "encounterCount": 219,
+      "returnVisitCount": 37,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "3d47b880-3910-4276-8089-4b32763028dc",
+      "recordedAt": "2026-03-28T08:27:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 126,
+      "capacity": 72,
+      "encounterCount": 133,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e7d3e4ad-b8a3-40e7-9e2b-4eec76013cb5",
+      "recordedAt": "2026-03-28T08:39:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 113,
+      "capacity": 65,
+      "encounterCount": 121,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "86942625-ab27-44cd-b3c2-cf0a0bf14c91",
+      "recordedAt": "2026-03-28T10:59:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 86,
+      "capacity": 56,
+      "encounterCount": 91,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8cc58916-c86f-4de5-a2a6-b69b1303ff66",
+      "recordedAt": "2026-03-28T09:11:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 110,
+      "capacity": 70,
+      "encounterCount": 118,
+      "returnVisitCount": 22,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "08768f4e-a526-4f86-b634-0b4ce90c776e",
+      "recordedAt": "2026-03-28T10:07:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 128,
+      "capacity": 86,
+      "encounterCount": 120,
+      "returnVisitCount": 31,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c4d7d160-b9dc-4df5-9250-2ac8509d5348",
+      "recordedAt": "2026-03-28T08:11:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 284,
+      "capacity": 160,
+      "encounterCount": 271,
+      "returnVisitCount": 44,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a73dd60b-9d6f-4662-96d2-376eafcba065",
+      "recordedAt": "2026-03-28T09:33:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 221,
+      "capacity": 148,
+      "encounterCount": 206,
+      "returnVisitCount": 38,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5652d2d3-5d09-44d1-8c32-0c97afcf9689",
+      "recordedAt": "2026-03-28T08:16:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 168,
+      "capacity": 112,
+      "encounterCount": 159,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "6b1927e7-a245-4595-9535-c03583bfb10d",
+      "recordedAt": "2026-03-28T08:12:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 117,
+      "capacity": 71,
+      "encounterCount": 108,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "fa713dd8-52b1-472d-9513-8a83b2e66037",
+      "recordedAt": "2026-03-29T08:06:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 207,
+      "capacity": 131,
+      "encounterCount": 206,
+      "returnVisitCount": 41,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5e00eaba-926c-451b-96a3-2fd6911e43d8",
+      "recordedAt": "2026-03-29T08:08:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 104,
+      "capacity": 75,
+      "encounterCount": 95,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "dc30bbc1-8a5f-4fe8-9357-c0dfb4891d79",
+      "recordedAt": "2026-03-29T08:49:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 92,
+      "capacity": 66,
+      "encounterCount": 88,
+      "returnVisitCount": 10,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "f2f7481e-fca7-4977-b69a-9c00504da5e5",
+      "recordedAt": "2026-03-29T09:53:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 87,
+      "capacity": 59,
+      "encounterCount": 79,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a14e801e-c91b-460b-8151-73c22557c5a4",
+      "recordedAt": "2026-03-29T10:54:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 89,
+      "capacity": 70,
+      "encounterCount": 84,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "fef00d7d-c797-414b-98e2-9c9c7188800e",
+      "recordedAt": "2026-03-29T10:45:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 104,
+      "capacity": 83,
+      "encounterCount": 111,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d4cd6214-dc38-4324-a710-d6c5136d6f31",
+      "recordedAt": "2026-03-29T08:50:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 228,
+      "capacity": 160,
+      "encounterCount": 210,
+      "returnVisitCount": 37,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "36d8b3ab-20b8-4391-8f57-55d2a6d268e1",
+      "recordedAt": "2026-03-29T10:07:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 210,
+      "capacity": 144,
+      "encounterCount": 203,
+      "returnVisitCount": 37,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a8f6abf0-f03a-4509-a53d-b02a0969fa4b",
+      "recordedAt": "2026-03-29T08:21:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 139,
+      "capacity": 115,
+      "encounterCount": 144,
+      "returnVisitCount": 24,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c3537e92-682d-44a8-bdc4-401ada2e6f62",
+      "recordedAt": "2026-03-29T08:59:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 94,
+      "capacity": 73,
+      "encounterCount": 103,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5e18fee3-21f0-426a-b503-7abcc728963f",
+      "recordedAt": "2026-03-30T10:30:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 197,
+      "capacity": 165,
+      "encounterCount": 209,
+      "returnVisitCount": 42,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2d6c2123-28f3-4466-a9a5-19f1f7e86cd3",
+      "recordedAt": "2026-03-30T10:50:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 107,
+      "capacity": 96,
+      "encounterCount": 105,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "bf60d31e-aaa3-4e51-ac6e-004d2e0d87eb",
+      "recordedAt": "2026-03-30T10:35:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 89,
+      "capacity": 81,
+      "encounterCount": 91,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c37f7913-d7f2-421f-bc89-24024dbac5a7",
+      "recordedAt": "2026-03-30T10:40:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 80,
+      "capacity": 76,
+      "encounterCount": 77,
+      "returnVisitCount": 8,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "68852af7-993a-434c-a8db-5bcfc6fd53ab",
+      "recordedAt": "2026-03-30T08:47:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 95,
+      "capacity": 89,
+      "encounterCount": 97,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d5485ef4-80d0-4aae-8bf1-75ed88634ab4",
+      "recordedAt": "2026-03-30T08:13:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 104,
+      "capacity": 111,
+      "encounterCount": 109,
+      "returnVisitCount": 22,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "acf89203-ca1e-4608-ae26-572ddb2b5922",
+      "recordedAt": "2026-03-30T10:18:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 198,
+      "capacity": 205,
+      "encounterCount": 201,
+      "returnVisitCount": 33,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "3ffd93fc-4b40-4945-b3ee-03f895c6a145",
+      "recordedAt": "2026-03-30T10:56:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 216,
+      "capacity": 180,
+      "encounterCount": 215,
+      "returnVisitCount": 44,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "ebfb7813-39b3-446f-9a68-85c3580afd57",
+      "recordedAt": "2026-03-30T10:09:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 159,
+      "capacity": 149,
+      "encounterCount": 144,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "dfaf6aa3-c8c9-4a0b-a2f7-6b4a8f21498f",
+      "recordedAt": "2026-03-30T09:07:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 101,
+      "capacity": 90,
+      "encounterCount": 93,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8b817858-4449-4fe9-9034-eac9c738ec80",
+      "recordedAt": "2026-03-31T10:47:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 210,
+      "capacity": 169,
+      "encounterCount": 200,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b281a96d-37a8-4c65-8b6d-f98299cd7f4f",
+      "recordedAt": "2026-03-31T10:30:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 89,
+      "capacity": 96,
+      "encounterCount": 81,
+      "returnVisitCount": 13,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "9b7ea2eb-0c98-4068-93ed-d894520561a7",
+      "recordedAt": "2026-03-31T10:20:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 76,
+      "capacity": 81,
+      "encounterCount": 69,
+      "returnVisitCount": 7,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "afe3de2e-ac3c-4079-8f4c-67f03e4bb10e",
+      "recordedAt": "2026-03-31T10:54:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 71,
+      "capacity": 76,
+      "encounterCount": 70,
+      "returnVisitCount": 7,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "e78324d1-329c-4bcf-acc8-968c8484ab6c",
+      "recordedAt": "2026-03-31T08:30:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 93,
+      "capacity": 86,
+      "encounterCount": 102,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c1c36bdd-88d2-4d29-a999-eeecc822ac46",
+      "recordedAt": "2026-03-31T10:33:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 100,
+      "capacity": 106,
+      "encounterCount": 101,
+      "returnVisitCount": 29,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "50c6140f-f924-4b63-8793-38f0896d0ac5",
+      "recordedAt": "2026-03-31T10:33:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 222,
+      "capacity": 209,
+      "encounterCount": 241,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "9306d084-fe0a-4c6d-95cd-193db128567e",
+      "recordedAt": "2026-03-31T09:07:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 202,
+      "capacity": 184,
+      "encounterCount": 217,
+      "returnVisitCount": 46,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "85210e13-da94-4726-a126-90c1b95fd451",
+      "recordedAt": "2026-03-31T09:03:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 155,
+      "capacity": 148,
+      "encounterCount": 154,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "765eab14-3ac2-4734-b8b3-e54d67db3c8b",
+      "recordedAt": "2026-03-31T09:10:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 99,
+      "capacity": 90,
+      "encounterCount": 89,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8b6d80aa-79d0-41c4-88cd-87dfed9162f9",
+      "recordedAt": "2026-04-01T10:07:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 237,
+      "capacity": 164,
+      "encounterCount": 234,
+      "returnVisitCount": 46,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "eeb2cafc-f39f-4795-b853-271ae0eb83f3",
+      "recordedAt": "2026-04-01T09:10:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 116,
+      "capacity": 96,
+      "encounterCount": 107,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c94b580f-d885-443c-a027-640589d97403",
+      "recordedAt": "2026-04-01T09:10:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 91,
+      "capacity": 84,
+      "encounterCount": 97,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "cdda1e58-4d8e-481d-880f-ea0bf63f6d3f",
+      "recordedAt": "2026-04-01T08:21:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 85,
+      "capacity": 73,
+      "encounterCount": 85,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "dfae1b0c-dc1f-4a6e-bc0f-b253992899af",
+      "recordedAt": "2026-04-01T08:20:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 98,
+      "capacity": 88,
+      "encounterCount": 92,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "fb83f26b-3236-4eef-89bc-333187778aa3",
+      "recordedAt": "2026-04-01T10:17:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 117,
+      "capacity": 109,
+      "encounterCount": 107,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2d3d50f7-b428-4c34-8c60-3e292842b293",
+      "recordedAt": "2026-04-01T09:30:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 237,
+      "capacity": 206,
+      "encounterCount": 225,
+      "returnVisitCount": 48,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "654cfeef-f9fe-4b12-8144-15071045956a",
+      "recordedAt": "2026-04-01T10:20:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 212,
+      "capacity": 187,
+      "encounterCount": 210,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e03946c8-fa42-4776-a0fe-91eea710f7d6",
+      "recordedAt": "2026-04-01T09:38:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 175,
+      "capacity": 143,
+      "encounterCount": 184,
+      "returnVisitCount": 26,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "89a3da74-0478-4e40-9ac7-9c45483ea832",
+      "recordedAt": "2026-04-01T08:20:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 117,
+      "capacity": 94,
+      "encounterCount": 123,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "6f0ae55a-2fdb-41cf-a1bb-5eae50bfb971",
+      "recordedAt": "2026-04-02T08:20:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 197,
+      "capacity": 163,
+      "encounterCount": 216,
+      "returnVisitCount": 28,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "782780fd-8cd8-4923-90e8-3cbaaa9c1b82",
+      "recordedAt": "2026-04-02T08:30:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 95,
+      "capacity": 95,
+      "encounterCount": 96,
+      "returnVisitCount": 20,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "70807599-d043-4bf6-965c-3ea86dcca211",
+      "recordedAt": "2026-04-02T10:06:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 90,
+      "capacity": 83,
+      "encounterCount": 97,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "3f343384-4827-4cf0-bc3f-5818fe259adb",
+      "recordedAt": "2026-04-02T10:27:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 80,
+      "capacity": 72,
+      "encounterCount": 76,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e89ed12c-a017-466e-a27d-84939cba3a5e",
+      "recordedAt": "2026-04-02T08:29:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 86,
+      "capacity": 90,
+      "encounterCount": 91,
+      "returnVisitCount": 19,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "a5e064dc-e0aa-4d56-a7df-8504317e1886",
+      "recordedAt": "2026-04-02T10:49:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 102,
+      "capacity": 110,
+      "encounterCount": 93,
+      "returnVisitCount": 20,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "e0f5d05a-5fcc-4683-a530-b3d8d9ff83ff",
+      "recordedAt": "2026-04-02T08:45:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 214,
+      "capacity": 210,
+      "encounterCount": 223,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5a7778b2-bc93-4f9c-84bb-360ce09b0cbb",
+      "recordedAt": "2026-04-02T08:35:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 177,
+      "capacity": 181,
+      "encounterCount": 164,
+      "returnVisitCount": 17,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "533b8181-14a8-4858-99d0-7f3200184035",
+      "recordedAt": "2026-04-02T10:46:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 163,
+      "capacity": 148,
+      "encounterCount": 173,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "7b72071b-f057-4779-9fc9-50c6d3f55f6f",
+      "recordedAt": "2026-04-02T08:17:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 102,
+      "capacity": 90,
+      "encounterCount": 92,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a4ef900e-660e-4279-806a-b37cf19f979e",
+      "recordedAt": "2026-04-03T08:56:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 203,
+      "capacity": 169,
+      "encounterCount": 185,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c1c07c5c-d4ec-4600-976e-249314506fb2",
+      "recordedAt": "2026-04-03T10:01:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 92,
+      "capacity": 94,
+      "encounterCount": 84,
+      "returnVisitCount": 8,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "3bb1d477-c387-414b-a839-64079f98f65f",
+      "recordedAt": "2026-04-03T09:35:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 75,
+      "capacity": 80,
+      "encounterCount": 78,
+      "returnVisitCount": 12,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "85fa96ea-3633-4b52-9f5f-5d98bdd1b70e",
+      "recordedAt": "2026-04-03T10:54:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 76,
+      "capacity": 75,
+      "encounterCount": 71,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d70730ef-8a34-4227-93d4-b5c28d16c697",
+      "recordedAt": "2026-04-03T08:14:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 88,
+      "capacity": 90,
+      "encounterCount": 89,
+      "returnVisitCount": 8,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "71e58f33-6e65-45c3-ae32-5327aef33886",
+      "recordedAt": "2026-04-03T10:44:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 100,
+      "capacity": 110,
+      "encounterCount": 104,
+      "returnVisitCount": 21,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "03668e45-c319-4939-a9fc-0386471532b1",
+      "recordedAt": "2026-04-03T09:04:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 243,
+      "capacity": 204,
+      "encounterCount": 266,
+      "returnVisitCount": 36,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d0c46bc0-d091-4f22-9a1d-38f2d6351e01",
+      "recordedAt": "2026-04-03T10:33:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 172,
+      "capacity": 184,
+      "encounterCount": 189,
+      "returnVisitCount": 37,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "6840c7cb-4d4b-4196-8d46-75ccc25f154f",
+      "recordedAt": "2026-04-03T10:32:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 158,
+      "capacity": 145,
+      "encounterCount": 167,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0c2e47e5-a6fa-4966-abf4-baf49ed5eb5b",
+      "recordedAt": "2026-04-03T09:04:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 86,
+      "capacity": 94,
+      "encounterCount": 87,
+      "returnVisitCount": 22,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "49a123e9-3de3-4c6f-929b-0a148438ffc7",
+      "recordedAt": "2026-04-04T09:20:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 148,
+      "capacity": 127,
+      "encounterCount": 135,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a331713b-03c4-408d-93ac-93aff2cab1bc",
+      "recordedAt": "2026-04-04T09:53:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 97,
+      "capacity": 72,
+      "encounterCount": 101,
+      "returnVisitCount": 10,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2ad40eea-6e1d-42b4-8fc2-2fbfac9fec2d",
+      "recordedAt": "2026-04-04T08:15:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 74,
+      "capacity": 63,
+      "encounterCount": 71,
+      "returnVisitCount": 8,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8eb981d2-94c2-4548-abdd-6abbd889a72e",
+      "recordedAt": "2026-04-04T09:34:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 75,
+      "capacity": 58,
+      "encounterCount": 73,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e705a8bd-936b-4204-9a86-a09ae902a3a5",
+      "recordedAt": "2026-04-04T08:27:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 91,
+      "capacity": 67,
+      "encounterCount": 100,
+      "returnVisitCount": 11,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "097d854e-dfa7-4396-a3a0-335240f864f9",
+      "recordedAt": "2026-04-04T09:38:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 110,
+      "capacity": 85,
+      "encounterCount": 119,
+      "returnVisitCount": 34,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "db533d1b-4abe-4205-b6bc-679289dd6a5e",
+      "recordedAt": "2026-04-04T08:02:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 224,
+      "capacity": 166,
+      "encounterCount": 211,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1ef6d4c2-679e-4608-8152-c48f1fc478de",
+      "recordedAt": "2026-04-04T10:11:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 166,
+      "capacity": 142,
+      "encounterCount": 180,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8ec0d916-3c3b-4df3-a820-332e79714159",
+      "recordedAt": "2026-04-04T09:49:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 130,
+      "capacity": 115,
+      "encounterCount": 135,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c945a78d-d76b-4b46-be39-c5b685904559",
+      "recordedAt": "2026-04-04T10:33:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 99,
+      "capacity": 73,
+      "encounterCount": 97,
+      "returnVisitCount": 24,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "8118bb8b-372d-4754-92f5-076e993881b1",
+      "recordedAt": "2026-04-05T10:29:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 147,
+      "capacity": 129,
+      "encounterCount": 159,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2372c460-411d-4890-bb38-e1168132484c",
+      "recordedAt": "2026-04-05T10:40:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 98,
+      "capacity": 74,
+      "encounterCount": 102,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a6201ce3-dbdd-40fc-a9a4-6c118d17a974",
+      "recordedAt": "2026-04-05T10:29:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 88,
+      "capacity": 63,
+      "encounterCount": 94,
+      "returnVisitCount": 10,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "77a4f951-b471-44f1-97c3-e72721f91a86",
+      "recordedAt": "2026-04-05T10:19:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 75,
+      "capacity": 57,
+      "encounterCount": 82,
+      "returnVisitCount": 9,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "21b0c9b8-1460-4539-a223-842a34605aed",
+      "recordedAt": "2026-04-05T09:14:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 75,
+      "capacity": 70,
+      "encounterCount": 68,
+      "returnVisitCount": 11,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "911fae38-7d38-4107-b05f-2b26cd10662f",
+      "recordedAt": "2026-04-05T10:30:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 98,
+      "capacity": 85,
+      "encounterCount": 92,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "98810597-19fe-49b5-bd3d-3640a3c24dfa",
+      "recordedAt": "2026-04-05T09:17:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 218,
+      "capacity": 166,
+      "encounterCount": 238,
+      "returnVisitCount": 43,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "9fd1e0ab-378c-48d8-8c1c-630ca7a88372",
+      "recordedAt": "2026-04-05T08:53:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 192,
+      "capacity": 140,
+      "encounterCount": 174,
+      "returnVisitCount": 28,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "4ac920d7-638e-476c-9099-78f66b081c60",
+      "recordedAt": "2026-04-05T08:45:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 138,
+      "capacity": 116,
+      "encounterCount": 128,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1fb213c8-a917-4a40-808e-439132ad02f4",
+      "recordedAt": "2026-04-05T09:35:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 79,
+      "capacity": 73,
+      "encounterCount": 76,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "52babda3-2189-43ec-b2a9-d41caecca076",
+      "recordedAt": "2026-04-06T08:24:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 173,
+      "capacity": 165,
+      "encounterCount": 168,
+      "returnVisitCount": 34,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "38d76774-954d-434c-80c1-ba1a8109b6d8",
+      "recordedAt": "2026-04-06T08:21:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 109,
+      "capacity": 93,
+      "encounterCount": 111,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1816c2e1-fadb-4c07-9b91-f9e85902ae94",
+      "recordedAt": "2026-04-06T10:22:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 83,
+      "capacity": 82,
+      "encounterCount": 77,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "f90ca095-6449-4035-90ae-841c7ba9cc17",
+      "recordedAt": "2026-04-06T10:25:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 87,
+      "capacity": 72,
+      "encounterCount": 86,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "96ef168b-9aab-45df-be61-5faa736484bb",
+      "recordedAt": "2026-04-06T09:58:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 108,
+      "capacity": 87,
+      "encounterCount": 118,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "4a306134-973e-4aa0-9e7c-00115cdba7e2",
+      "recordedAt": "2026-04-06T10:33:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 134,
+      "capacity": 109,
+      "encounterCount": 129,
+      "returnVisitCount": 31,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "7a7e31f0-8644-450c-9c08-606c36ca06f2",
+      "recordedAt": "2026-04-06T10:44:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 258,
+      "capacity": 214,
+      "encounterCount": 258,
+      "returnVisitCount": 49,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "bf7a8210-6836-4faa-9b13-389225f179ae",
+      "recordedAt": "2026-04-06T08:25:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 252,
+      "capacity": 189,
+      "encounterCount": 253,
+      "returnVisitCount": 36,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "436cf6be-b9e8-4265-9567-e8f3ad3f53cd",
+      "recordedAt": "2026-04-06T10:09:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 176,
+      "capacity": 144,
+      "encounterCount": 174,
+      "returnVisitCount": 37,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c9dc845d-bcf8-47a6-ab8f-a1bb1c790001",
+      "recordedAt": "2026-04-06T09:30:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 114,
+      "capacity": 93,
+      "encounterCount": 117,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "43a78f6c-f626-432b-8f60-2d5d88fcfb68",
+      "recordedAt": "2026-04-07T09:37:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 142,
+      "capacity": 166,
+      "encounterCount": 129,
+      "returnVisitCount": 26,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "9c6c6e06-4707-4709-b8cb-a96a2b4ab5b4",
+      "recordedAt": "2026-04-07T09:00:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 84,
+      "capacity": 93,
+      "encounterCount": 92,
+      "returnVisitCount": 19,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "55179ea9-02fd-4c7a-9e5a-9ad58903ec1e",
+      "recordedAt": "2026-04-07T10:49:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 77,
+      "capacity": 83,
+      "encounterCount": 75,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "a62f1b17-d727-4bac-9b7e-c5c47c77111d",
+      "recordedAt": "2026-04-07T09:19:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 64,
+      "capacity": 72,
+      "encounterCount": 58,
+      "returnVisitCount": 11,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "2e78d88a-b6dc-4b37-a6c6-4e972c0967dc",
+      "recordedAt": "2026-04-07T10:46:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 82,
+      "capacity": 88,
+      "encounterCount": 75,
+      "returnVisitCount": 12,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "e4bb6499-66c5-4e80-9e77-275eedb45cc3",
+      "recordedAt": "2026-04-07T09:44:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 98,
+      "capacity": 109,
+      "encounterCount": 92,
+      "returnVisitCount": 16,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "343eff26-7d44-4077-ba96-0dc9d3f0e25d",
+      "recordedAt": "2026-04-07T08:57:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 216,
+      "capacity": 207,
+      "encounterCount": 231,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "3b6aa64e-818a-44d3-bd12-0c1ef1c85da6",
+      "recordedAt": "2026-04-07T10:55:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 215,
+      "capacity": 187,
+      "encounterCount": 222,
+      "returnVisitCount": 45,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "84f1b608-8324-4d36-807d-a75d04682b92",
+      "recordedAt": "2026-04-07T08:20:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 150,
+      "capacity": 141,
+      "encounterCount": 152,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "abd8ab83-0f51-456a-b6d9-c981ce1b9c03",
+      "recordedAt": "2026-04-07T09:15:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 88,
+      "capacity": 90,
+      "encounterCount": 94,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "9e7b3d92-efd2-4b00-b6ab-a1594e40f341",
+      "recordedAt": "2026-04-08T10:44:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 138,
+      "capacity": 161,
+      "encounterCount": 137,
+      "returnVisitCount": 29,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "5bb68a24-7ef3-4b0f-a02b-04c9cd20760f",
+      "recordedAt": "2026-04-08T08:16:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 79,
+      "capacity": 97,
+      "encounterCount": 85,
+      "returnVisitCount": 11,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "85ab65e7-69e3-45d6-b255-6948cf9ff24e",
+      "recordedAt": "2026-04-08T08:51:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 79,
+      "capacity": 83,
+      "encounterCount": 74,
+      "returnVisitCount": 11,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "7adfb884-c216-47dd-9209-6b9d56d220a6",
+      "recordedAt": "2026-04-08T09:06:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 69,
+      "capacity": 73,
+      "encounterCount": 65,
+      "returnVisitCount": 12,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "71cb530b-6859-4647-b0ba-2939236a15b2",
+      "recordedAt": "2026-04-08T10:09:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 90,
+      "capacity": 89,
+      "encounterCount": 89,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "242530d3-131b-4932-8dbf-04d26f6c523e",
+      "recordedAt": "2026-04-08T09:30:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 101,
+      "capacity": 105,
+      "encounterCount": 92,
+      "returnVisitCount": 23,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "e43ff507-3c7e-40ce-a424-56b266b1c590",
+      "recordedAt": "2026-04-08T08:36:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 199,
+      "capacity": 213,
+      "encounterCount": 204,
+      "returnVisitCount": 24,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "f75546e0-b5af-460d-abfa-59944f74ad13",
+      "recordedAt": "2026-04-08T08:32:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 192,
+      "capacity": 185,
+      "encounterCount": 202,
+      "returnVisitCount": 43,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "cf0cf1a8-72a7-44d5-839c-7db50e72210a",
+      "recordedAt": "2026-04-08T09:13:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 119,
+      "capacity": 149,
+      "encounterCount": 114,
+      "returnVisitCount": 18,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "c07de95c-2b44-4ac3-88bd-07e8cbf44ec3",
+      "recordedAt": "2026-04-08T08:43:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 84,
+      "capacity": 92,
+      "encounterCount": 82,
+      "returnVisitCount": 22,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "19532e70-8ad2-4978-883c-a2cf4237933e",
+      "recordedAt": "2026-04-09T10:37:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 159,
+      "capacity": 162,
+      "encounterCount": 143,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "adf61af6-8707-4a22-86f1-2960bbc205de",
+      "recordedAt": "2026-04-09T08:59:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 77,
+      "capacity": 94,
+      "encounterCount": 72,
+      "returnVisitCount": 14,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "a47dd705-7b40-4f6c-a9c3-8e7c508d0070",
+      "recordedAt": "2026-04-09T10:18:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 67,
+      "capacity": 80,
+      "encounterCount": 73,
+      "returnVisitCount": 9,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "97b20532-8bed-4f5d-b104-704a841288f9",
+      "recordedAt": "2026-04-09T09:09:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 73,
+      "capacity": 75,
+      "encounterCount": 69,
+      "returnVisitCount": 11,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "9fe18750-4fbe-47a5-adca-f7a4c51f68e2",
+      "recordedAt": "2026-04-09T08:35:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 83,
+      "capacity": 88,
+      "encounterCount": 91,
+      "returnVisitCount": 9,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "70afa8fe-e84b-4c28-a0b4-3852655ee1d2",
+      "recordedAt": "2026-04-09T10:49:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 90,
+      "capacity": 109,
+      "encounterCount": 84,
+      "returnVisitCount": 18,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "d313bed6-ba14-40c3-bb69-228c0da23329",
+      "recordedAt": "2026-04-09T08:00:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 170,
+      "capacity": 210,
+      "encounterCount": 179,
+      "returnVisitCount": 34,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "139e90ab-3c24-4783-9dbb-6bae954ef369",
+      "recordedAt": "2026-04-09T10:44:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 191,
+      "capacity": 189,
+      "encounterCount": 193,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b37bf1f2-fcfe-4c7a-8a21-ac9aa7157dc5",
+      "recordedAt": "2026-04-09T08:51:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 148,
+      "capacity": 149,
+      "encounterCount": 149,
+      "returnVisitCount": 17,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "e8370433-9ab6-44f8-b648-d323c550f6d5",
+      "recordedAt": "2026-04-09T09:30:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 84,
+      "capacity": 92,
+      "encounterCount": 78,
+      "returnVisitCount": 13,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "ae6f5dc5-32db-4f6c-9c7f-d6fb187178cd",
+      "recordedAt": "2026-04-10T08:47:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 160,
+      "capacity": 166,
+      "encounterCount": 174,
+      "returnVisitCount": 16,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "49bd8e39-9c56-4c3c-93a3-e1572140c82d",
+      "recordedAt": "2026-04-10T10:33:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 95,
+      "capacity": 93,
+      "encounterCount": 99,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "981657a2-36a3-4031-8546-99c9ce2ee8ad",
+      "recordedAt": "2026-04-10T10:45:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 71,
+      "capacity": 80,
+      "encounterCount": 66,
+      "returnVisitCount": 8,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "87e49545-fb28-4d7c-a2bf-af83025e13c8",
+      "recordedAt": "2026-04-10T09:18:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 63,
+      "capacity": 73,
+      "encounterCount": 59,
+      "returnVisitCount": 10,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "70f9dac6-4c10-40b4-8e65-5de225e08ae1",
+      "recordedAt": "2026-04-10T10:10:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 72,
+      "capacity": 89,
+      "encounterCount": 76,
+      "returnVisitCount": 14,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "98a509f2-d4ce-40ad-b5c8-1a923d446b0f",
+      "recordedAt": "2026-04-10T08:25:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 112,
+      "capacity": 106,
+      "encounterCount": 103,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "886fa9cc-d981-4e32-ad9e-75656d9ed701",
+      "recordedAt": "2026-04-10T09:15:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 188,
+      "capacity": 209,
+      "encounterCount": 181,
+      "returnVisitCount": 38,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "b32c8d5f-ff02-4484-b2f3-1010994ee7c2",
+      "recordedAt": "2026-04-10T10:20:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 193,
+      "capacity": 181,
+      "encounterCount": 195,
+      "returnVisitCount": 38,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "f1432639-dedf-4e6c-aa9f-2ada56cbbb20",
+      "recordedAt": "2026-04-10T08:35:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 123,
+      "capacity": 141,
+      "encounterCount": 128,
+      "returnVisitCount": 17,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "4a792127-e5d3-45a8-a38e-510b8f1dc19d",
+      "recordedAt": "2026-04-10T08:34:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 80,
+      "capacity": 90,
+      "encounterCount": 87,
+      "returnVisitCount": 15,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "000c58e7-b65f-4f2c-ae8b-e24d2366fad5",
+      "recordedAt": "2026-04-11T08:23:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 168,
+      "capacity": 129,
+      "encounterCount": 157,
+      "returnVisitCount": 20,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1e052471-ec26-4e9f-9efb-2b36cb328e7f",
+      "recordedAt": "2026-04-11T09:13:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 94,
+      "capacity": 73,
+      "encounterCount": 99,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e533f26e-1ae8-403b-bead-fd072ffe1edb",
+      "recordedAt": "2026-04-11T10:19:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 85,
+      "capacity": 62,
+      "encounterCount": 81,
+      "returnVisitCount": 16,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "6b1ed0c9-0001-4c57-9f25-43a8a31304ec",
+      "recordedAt": "2026-04-11T09:01:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 71,
+      "capacity": 59,
+      "encounterCount": 69,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "45a9c363-cb58-4e3b-8e07-b028964cb7e5",
+      "recordedAt": "2026-04-11T09:36:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 79,
+      "capacity": 68,
+      "encounterCount": 79,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a6f33e5c-f001-450f-8547-858015ba8555",
+      "recordedAt": "2026-04-11T09:38:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 88,
+      "capacity": 86,
+      "encounterCount": 95,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "46c679bb-efac-494b-afa0-74fec3ff3268",
+      "recordedAt": "2026-04-11T10:46:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 204,
+      "capacity": 165,
+      "encounterCount": 195,
+      "returnVisitCount": 34,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1ee0c8bd-ee38-4dc9-947c-be54a26c7f8a",
+      "recordedAt": "2026-04-11T09:50:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 186,
+      "capacity": 142,
+      "encounterCount": 178,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b16d7d5f-bb97-4bad-b98c-8e70f180677d",
+      "recordedAt": "2026-04-11T08:26:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 131,
+      "capacity": 112,
+      "encounterCount": 144,
+      "returnVisitCount": 30,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d6c984d5-f5d0-4854-9c24-ff5802db2611",
+      "recordedAt": "2026-04-11T09:05:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 74,
+      "capacity": 71,
+      "encounterCount": 68,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "4f50feab-8a37-4d6c-93a0-44aa909dbdc1",
+      "recordedAt": "2026-04-12T08:50:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 150,
+      "capacity": 126,
+      "encounterCount": 153,
+      "returnVisitCount": 28,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "56f964c7-4bb0-4266-a637-12bfe9f2691c",
+      "recordedAt": "2026-04-12T10:23:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 97,
+      "capacity": 72,
+      "encounterCount": 87,
+      "returnVisitCount": 10,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "cbf5a261-4fad-4e50-9777-f90973977412",
+      "recordedAt": "2026-04-12T09:33:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 80,
+      "capacity": 63,
+      "encounterCount": 82,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b32d7350-49e7-4bd9-901a-1573e8a9a96d",
+      "recordedAt": "2026-04-12T08:01:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 66,
+      "capacity": 58,
+      "encounterCount": 69,
+      "returnVisitCount": 9,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0ba2e981-1e51-4614-b513-b539161ff555",
+      "recordedAt": "2026-04-12T08:57:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 80,
+      "capacity": 67,
+      "encounterCount": 81,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "94597320-7957-493d-9856-9e20c844cb12",
+      "recordedAt": "2026-04-12T09:45:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 112,
+      "capacity": 86,
+      "encounterCount": 112,
+      "returnVisitCount": 24,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "98a2d9e0-58a5-4287-9b66-3db38be5eb4c",
+      "recordedAt": "2026-04-12T10:31:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 183,
+      "capacity": 160,
+      "encounterCount": 187,
+      "returnVisitCount": 38,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a011fdff-8d39-4709-9182-0b5c2b882869",
+      "recordedAt": "2026-04-12T09:31:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 204,
+      "capacity": 147,
+      "encounterCount": 206,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "25c2f3b9-93cc-4fb7-bd05-9f586af414c7",
+      "recordedAt": "2026-04-12T10:25:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 132,
+      "capacity": 113,
+      "encounterCount": 141,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "3caa7fd4-4b57-4d8f-a72d-a9a32f023bf0",
+      "recordedAt": "2026-04-12T10:30:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 83,
+      "capacity": 72,
+      "encounterCount": 78,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0a4337f8-3cdc-4ef9-9c22-b4d1d3e83f25",
+      "recordedAt": "2026-04-13T09:21:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 168,
+      "capacity": 167,
+      "encounterCount": 157,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c4324a2c-8bd2-4792-86fe-eb8e91bb57d6",
+      "recordedAt": "2026-04-13T09:56:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 86,
+      "capacity": 93,
+      "encounterCount": 88,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "d43a5d29-7921-40fd-aef6-76a45a9cc037",
+      "recordedAt": "2026-04-13T10:01:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 69,
+      "capacity": 80,
+      "encounterCount": 72,
+      "returnVisitCount": 7,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "4848ed50-208e-4b7e-9911-c753d8177543",
+      "recordedAt": "2026-04-13T09:36:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 75,
+      "capacity": 75,
+      "encounterCount": 72,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "d50c2adc-1125-4267-8cf7-ac38816b4850",
+      "recordedAt": "2026-04-13T10:22:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 84,
+      "capacity": 88,
+      "encounterCount": 84,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "54654fc2-e6d2-4e0c-a9d6-0a1d7b61af9e",
+      "recordedAt": "2026-04-13T10:56:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 108,
+      "capacity": 107,
+      "encounterCount": 110,
+      "returnVisitCount": 26,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2a93a097-5817-4a09-a57c-ed7931da4166",
+      "recordedAt": "2026-04-13T08:29:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 175,
+      "capacity": 209,
+      "encounterCount": 190,
+      "returnVisitCount": 19,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "758bcb73-adcb-4a07-ab18-bef80f9462b2",
+      "recordedAt": "2026-04-13T09:04:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 174,
+      "capacity": 180,
+      "encounterCount": 161,
+      "returnVisitCount": 34,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "828f5e0a-6afc-4dd4-8309-51f22dc32cd5",
+      "recordedAt": "2026-04-13T10:09:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 147,
+      "capacity": 142,
+      "encounterCount": 141,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "c6b15aae-826c-4eae-8b1e-83edc237ca17",
+      "recordedAt": "2026-04-13T10:59:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 90,
+      "capacity": 92,
+      "encounterCount": 84,
+      "returnVisitCount": 15,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "cd73e284-8c82-47c6-bccf-685ffeb17994",
+      "recordedAt": "2026-04-14T08:06:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 181,
+      "capacity": 161,
+      "encounterCount": 183,
+      "returnVisitCount": 40,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5509865a-3397-428f-b14b-7253f7651c25",
+      "recordedAt": "2026-04-14T08:43:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 113,
+      "capacity": 94,
+      "encounterCount": 103,
+      "returnVisitCount": 17,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0b18bc72-ec1e-4cdc-8ed4-395c9468b76f",
+      "recordedAt": "2026-04-14T09:58:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 86,
+      "capacity": 80,
+      "encounterCount": 89,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "61493ea7-8f71-4924-b6f9-c0057e6db8f3",
+      "recordedAt": "2026-04-14T09:17:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 87,
+      "capacity": 73,
+      "encounterCount": 85,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "514cd156-c9fe-4996-959d-fa9908492271",
+      "recordedAt": "2026-04-14T09:03:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 95,
+      "capacity": 90,
+      "encounterCount": 86,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "f016e6ae-9af1-43d5-b37e-299b8850cd71",
+      "recordedAt": "2026-04-14T08:30:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 125,
+      "capacity": 110,
+      "encounterCount": 123,
+      "returnVisitCount": 29,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "32cf863d-c17a-426e-af13-0ee472ceced8",
+      "recordedAt": "2026-04-14T08:10:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 243,
+      "capacity": 216,
+      "encounterCount": 256,
+      "returnVisitCount": 52,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "226445b4-0f0d-4dd9-8f76-b6ba6288effa",
+      "recordedAt": "2026-04-14T10:52:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 229,
+      "capacity": 187,
+      "encounterCount": 230,
+      "returnVisitCount": 48,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "55746ec9-7e13-49ec-b1a0-5a36d9cb696a",
+      "recordedAt": "2026-04-14T10:03:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 172,
+      "capacity": 144,
+      "encounterCount": 179,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "fecbabf9-9b3e-4f40-a542-e0fa0eeba6f8",
+      "recordedAt": "2026-04-14T10:00:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 115,
+      "capacity": 91,
+      "encounterCount": 110,
+      "returnVisitCount": 24,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "0e5e2af6-f5a8-4b09-b570-9441663a1630",
+      "recordedAt": "2026-04-15T08:50:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 183,
+      "capacity": 168,
+      "encounterCount": 189,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "05fd2673-9559-4cfe-8889-1170b96a9263",
+      "recordedAt": "2026-04-15T08:47:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 106,
+      "capacity": 97,
+      "encounterCount": 106,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "952f1cbd-eb67-4286-9d54-84f693b9eb14",
+      "recordedAt": "2026-04-15T10:58:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 92,
+      "capacity": 82,
+      "encounterCount": 98,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "e54f0b52-211d-4031-ab92-94a70f9bb748",
+      "recordedAt": "2026-04-15T08:15:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 79,
+      "capacity": 74,
+      "encounterCount": 79,
+      "returnVisitCount": 12,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d70d7dd0-70ee-4761-8def-019e93ae2181",
+      "recordedAt": "2026-04-15T08:16:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 103,
+      "capacity": 86,
+      "encounterCount": 109,
+      "returnVisitCount": 13,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "db4231ee-e902-4e6d-8483-1648ee148ad0",
+      "recordedAt": "2026-04-15T08:04:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 119,
+      "capacity": 110,
+      "encounterCount": 127,
+      "returnVisitCount": 35,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "a874b4d7-8ff7-4267-bcbf-0000705787e0",
+      "recordedAt": "2026-04-15T08:42:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 244,
+      "capacity": 215,
+      "encounterCount": 223,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2ce5a2e7-7912-4be6-bc13-e880beb49083",
+      "recordedAt": "2026-04-15T08:25:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 202,
+      "capacity": 183,
+      "encounterCount": 192,
+      "returnVisitCount": 33,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "03f690a6-ef5e-4e1f-885e-9804c8a1399b",
+      "recordedAt": "2026-04-15T08:48:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 157,
+      "capacity": 149,
+      "encounterCount": 150,
+      "returnVisitCount": 32,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "67087327-c0d9-4621-9c3a-26e157bc981f",
+      "recordedAt": "2026-04-15T08:50:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 98,
+      "capacity": 94,
+      "encounterCount": 97,
+      "returnVisitCount": 22,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "66fc4056-2897-4120-9514-15c11ce15738",
+      "recordedAt": "2026-04-16T09:32:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 164,
+      "capacity": 162,
+      "encounterCount": 163,
+      "returnVisitCount": 18,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "470d0808-2786-499d-b7fa-f622602dde6a",
+      "recordedAt": "2026-04-16T09:00:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 93,
+      "capacity": 95,
+      "encounterCount": 95,
+      "returnVisitCount": 13,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "36c3d9f3-f9b6-4bfb-b767-abe4a4ba951f",
+      "recordedAt": "2026-04-16T09:59:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 77,
+      "capacity": 84,
+      "encounterCount": 75,
+      "returnVisitCount": 13,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "cab9f140-20d3-49ae-a55d-52a4d71878cd",
+      "recordedAt": "2026-04-16T08:16:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 80,
+      "capacity": 72,
+      "encounterCount": 86,
+      "returnVisitCount": 11,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d6bd4dc0-fc43-46c5-93dc-ccf6c530a94b",
+      "recordedAt": "2026-04-16T08:39:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 82,
+      "capacity": 90,
+      "encounterCount": 87,
+      "returnVisitCount": 18,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "fab90bba-ed9e-4354-a0a7-cabb2d3e689e",
+      "recordedAt": "2026-04-16T08:04:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 116,
+      "capacity": 109,
+      "encounterCount": 111,
+      "returnVisitCount": 26,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "5ebfafcf-c528-4eae-8844-ae0af2491446",
+      "recordedAt": "2026-04-16T08:01:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 229,
+      "capacity": 208,
+      "encounterCount": 226,
+      "returnVisitCount": 23,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "1f1f228f-12ea-4181-9a6b-2ac53860e15d",
+      "recordedAt": "2026-04-16T09:56:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 196,
+      "capacity": 188,
+      "encounterCount": 179,
+      "returnVisitCount": 19,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "d30e2787-63c3-4931-a3cf-66459c5b89c7",
+      "recordedAt": "2026-04-16T09:15:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 146,
+      "capacity": 145,
+      "encounterCount": 158,
+      "returnVisitCount": 27,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "2e7b0bf3-c4b9-48c1-a4fd-431ebb835290",
+      "recordedAt": "2026-04-16T08:29:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 98,
+      "capacity": 92,
+      "encounterCount": 105,
+      "returnVisitCount": 28,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "09da5905-333a-4325-a983-3d3bf6926a44",
+      "recordedAt": "2026-04-17T10:46:00.0000000Z",
+      "serviceUnit": "Emergency Care",
+      "demand": 174,
+      "capacity": 169,
+      "encounterCount": 175,
+      "returnVisitCount": 37,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "bdebc499-1685-431d-84e8-7e1712a763a0",
+      "recordedAt": "2026-04-17T10:58:00.0000000Z",
+      "serviceUnit": "Surgical Pathway",
+      "demand": 88,
+      "capacity": 96,
+      "encounterCount": 80,
+      "returnVisitCount": 11,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "795bacce-eb4b-4958-875d-5120e430e343",
+      "recordedAt": "2026-04-17T10:38:00.0000000Z",
+      "serviceUnit": "Cardiology",
+      "demand": 90,
+      "capacity": 84,
+      "encounterCount": 86,
+      "returnVisitCount": 14,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "74986461-4212-4e83-9cb5-a06a9e770b12",
+      "recordedAt": "2026-04-17T09:48:00.0000000Z",
+      "serviceUnit": "Oncology",
+      "demand": 80,
+      "capacity": 73,
+      "encounterCount": 84,
+      "returnVisitCount": 15,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "90a5fc55-be79-4388-861c-250d9d0d9c01",
+      "recordedAt": "2026-04-17T10:01:00.0000000Z",
+      "serviceUnit": "Maternity",
+      "demand": 86,
+      "capacity": 87,
+      "encounterCount": 81,
+      "returnVisitCount": 13,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "2dfb3a01-245a-4d97-9c50-450f60dc9cf7",
+      "recordedAt": "2026-04-17T10:45:00.0000000Z",
+      "serviceUnit": "Mental Health",
+      "demand": 95,
+      "capacity": 110,
+      "encounterCount": 93,
+      "returnVisitCount": 20,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "8ecc2d48-ab63-4804-b18a-0a23a68f2ab6",
+      "recordedAt": "2026-04-17T08:14:00.0000000Z",
+      "serviceUnit": "Outpatient Clinics",
+      "demand": 235,
+      "capacity": 211,
+      "encounterCount": 254,
+      "returnVisitCount": 40,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "3e112a7b-a71a-4e47-83ad-3d6e4daf133d",
+      "recordedAt": "2026-04-17T08:03:00.0000000Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 176,
+      "capacity": 180,
+      "encounterCount": 163,
+      "returnVisitCount": 19,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "4d8aa3a9-be8b-4824-b4a6-354a36feb310",
+      "recordedAt": "2026-04-17T09:33:00.0000000Z",
+      "serviceUnit": "Community Care",
+      "demand": 147,
+      "capacity": 143,
+      "encounterCount": 148,
+      "returnVisitCount": 25,
+      "capacityStatus": "OVER_CAPACITY"
+    },
+    {
+      "snapshotId": "b93a82ce-6629-43b4-ad20-dcea1708fea0",
+      "recordedAt": "2026-04-17T10:36:00.0000000Z",
+      "serviceUnit": "Rehabilitation",
+      "demand": 93,
+      "capacity": 93,
+      "encounterCount": 89,
+      "returnVisitCount": 14,
+      "capacityStatus": "AT_CAPACITY"
+    },
+    {
+      "snapshotId": "1e23b078-566d-4f85-aaa4-7c5ed28292d2",
+      "recordedAt": "2026-04-16T23:29:42.9588986Z",
+      "serviceUnit": "Diagnostics",
+      "demand": 0,
+      "capacity": 120,
+      "encounterCount": 0,
+      "returnVisitCount": 0,
+      "capacityStatus": "UNDER_CAPACITY"
+    },
+    {
+      "snapshotId": "61d79f53-6656-4a0f-80c9-b075008c3c69",
+      "recordedAt": "2026-04-16T23:29:42.9588986Z",
+      "serviceUnit": "Community Care",
+      "demand": 85,
+      "capacity": 0,
+      "encounterCount": 82,
+      "returnVisitCount": 21,
+      "capacityStatus": "OVER_CAPACITY"
+    }
+  ],
+  "cohortCounts": [
+    {
+      "cohortId": "388cb7b2-5f6f-4a5a-9b5b-404795edd93d",
+      "label": "Active Cases",
+      "count": 1223,
+      "recordedDate": "2026-03-19",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "28a6fc65-6dae-4cfb-868b-cb2043fa7255",
+      "label": "Pending Referrals",
+      "count": 366,
+      "recordedDate": "2026-03-19",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "fd11feeb-3a90-4238-abca-a5bd64f1568b",
+      "label": "Completed Encounters",
+      "count": 739,
+      "recordedDate": "2026-03-19",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "595f047b-a479-4a36-afcf-77f49fa67866",
+      "label": "High Complexity Cases",
+      "count": 153,
+      "recordedDate": "2026-03-19",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "a7ec8e9a-0fad-4ba0-be71-e91c61439571",
+      "label": "Follow-up Required",
+      "count": 272,
+      "recordedDate": "2026-03-19",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "f440d57e-58b6-41e7-867f-e4704486f551",
+      "label": "Active Cases",
+      "count": 1219,
+      "recordedDate": "2026-03-20",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "93d4ecac-19b9-4b59-8542-2cd3b6d354f0",
+      "label": "Pending Referrals",
+      "count": 337,
+      "recordedDate": "2026-03-20",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "705a95f0-d445-493d-8971-038fb5bcddc7",
+      "label": "Completed Encounters",
+      "count": 757,
+      "recordedDate": "2026-03-20",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5b92f31b-cfb1-4be2-b649-3919e879d39d",
+      "label": "High Complexity Cases",
+      "count": 140,
+      "recordedDate": "2026-03-20",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "92173efd-7dd6-499b-a2e2-ce182af7ad7a",
+      "label": "Follow-up Required",
+      "count": 289,
+      "recordedDate": "2026-03-20",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "3067c182-3df5-4d35-bf61-dbdc4143c2bf",
+      "label": "Active Cases",
+      "count": 1257,
+      "recordedDate": "2026-03-21",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "3c7738da-f90d-455a-aca9-2abd0ced2d15",
+      "label": "Pending Referrals",
+      "count": 336,
+      "recordedDate": "2026-03-21",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "78fba136-f5f4-46da-93cc-7ce779dfc879",
+      "label": "Completed Encounters",
+      "count": 789,
+      "recordedDate": "2026-03-21",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "0def2a13-94b2-4010-a3de-ab157c1d820a",
+      "label": "High Complexity Cases",
+      "count": 155,
+      "recordedDate": "2026-03-21",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "0e7678bb-6592-4d96-9383-7c8eca196ef7",
+      "label": "Follow-up Required",
+      "count": 298,
+      "recordedDate": "2026-03-21",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "9fbcf7be-d675-4a33-8e2b-17a7e4778040",
+      "label": "Active Cases",
+      "count": 1278,
+      "recordedDate": "2026-03-22",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "25620a47-5bd3-4787-9011-28862cc9cff2",
+      "label": "Pending Referrals",
+      "count": 366,
+      "recordedDate": "2026-03-22",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "0cb03b3b-53f1-4d90-a92f-df739fd7cb4c",
+      "label": "Completed Encounters",
+      "count": 811,
+      "recordedDate": "2026-03-22",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "764652ed-ac08-43fd-a3d7-f51a6d3e8cff",
+      "label": "High Complexity Cases",
+      "count": 181,
+      "recordedDate": "2026-03-22",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "569c3a58-6650-4ca8-a2f0-784b63a4d719",
+      "label": "Follow-up Required",
+      "count": 273,
+      "recordedDate": "2026-03-22",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "6be6db0c-01af-413f-990e-f666e4df0528",
+      "label": "Active Cases",
+      "count": 1239,
+      "recordedDate": "2026-03-23",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "b2e99bd6-8e20-4e17-9a15-858d8aeaab6d",
+      "label": "Pending Referrals",
+      "count": 366,
+      "recordedDate": "2026-03-23",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4ff409a7-0132-4597-b2e3-b5088ae558bb",
+      "label": "Completed Encounters",
+      "count": 772,
+      "recordedDate": "2026-03-23",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "6efb2eb3-cb19-4d34-8dcb-9870c26e56d9",
+      "label": "High Complexity Cases",
+      "count": 151,
+      "recordedDate": "2026-03-23",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "1e69215e-53c7-48c2-8099-b27456955574",
+      "label": "Follow-up Required",
+      "count": 247,
+      "recordedDate": "2026-03-23",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "f1988792-55cc-42f0-81f6-993ca55c3cbf",
+      "label": "Active Cases",
+      "count": 1272,
+      "recordedDate": "2026-03-24",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "bdb9b9a1-1962-4857-b55b-d248665bf9ed",
+      "label": "Pending Referrals",
+      "count": 350,
+      "recordedDate": "2026-03-24",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "cd587e75-1e5e-4966-83b4-ac06a5a8e2a7",
+      "label": "Completed Encounters",
+      "count": 778,
+      "recordedDate": "2026-03-24",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "3a548efa-7060-421a-b895-40e17718f23b",
+      "label": "High Complexity Cases",
+      "count": 128,
+      "recordedDate": "2026-03-24",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "43741683-1613-4ca2-8e4c-ba1ca755626c",
+      "label": "Follow-up Required",
+      "count": 269,
+      "recordedDate": "2026-03-24",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "a2d7630b-91b7-4c91-a596-90629f1efe33",
+      "label": "Active Cases",
+      "count": 1275,
+      "recordedDate": "2026-03-25",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4f324a62-6c52-4581-87a4-a06dfc101919",
+      "label": "Pending Referrals",
+      "count": 398,
+      "recordedDate": "2026-03-25",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "fcacd3dc-6094-4c3c-a2a6-f58af6dd12d2",
+      "label": "Completed Encounters",
+      "count": 800,
+      "recordedDate": "2026-03-25",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "c9229f73-8088-4c5a-a033-106785698da2",
+      "label": "High Complexity Cases",
+      "count": 130,
+      "recordedDate": "2026-03-25",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "84377037-283f-4912-b98b-5208cd1241dc",
+      "label": "Follow-up Required",
+      "count": 299,
+      "recordedDate": "2026-03-25",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "0f223993-d48b-4cd5-ac50-013cb5c36342",
+      "label": "Active Cases",
+      "count": 1285,
+      "recordedDate": "2026-03-26",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "32834bd6-0e3a-4d70-8708-93a2e1f8a541",
+      "label": "Pending Referrals",
+      "count": 336,
+      "recordedDate": "2026-03-26",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "e82205e3-095d-4728-8dd1-7dc00ae62871",
+      "label": "Completed Encounters",
+      "count": 815,
+      "recordedDate": "2026-03-26",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "42747745-12f7-4a9e-97a8-fd46f95b89fd",
+      "label": "High Complexity Cases",
+      "count": 138,
+      "recordedDate": "2026-03-26",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "03d4f473-241d-4770-94ba-b7f2035bfd16",
+      "label": "Follow-up Required",
+      "count": 284,
+      "recordedDate": "2026-03-26",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "aefa6b2f-7859-4529-bbd8-cd490c34fe8b",
+      "label": "Active Cases",
+      "count": 1323,
+      "recordedDate": "2026-03-27",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4f76c680-79e8-4fe0-a6d0-4aee2fe5a89b",
+      "label": "Pending Referrals",
+      "count": 387,
+      "recordedDate": "2026-03-27",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "675ae428-ed8b-4f9a-9dd0-397b3c4d893a",
+      "label": "Completed Encounters",
+      "count": 830,
+      "recordedDate": "2026-03-27",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "223aeed4-0a34-4139-a3f6-f5b5837f37ed",
+      "label": "High Complexity Cases",
+      "count": 127,
+      "recordedDate": "2026-03-27",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "e9ee6b0a-0f87-4075-a8f7-a87540c027fe",
+      "label": "Follow-up Required",
+      "count": 301,
+      "recordedDate": "2026-03-27",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "c22fd44c-dde1-4e7a-9d1e-036737c7fc91",
+      "label": "Active Cases",
+      "count": 1317,
+      "recordedDate": "2026-03-28",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "a5997844-1229-40be-b871-a3330a66e746",
+      "label": "Pending Referrals",
+      "count": 332,
+      "recordedDate": "2026-03-28",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "0b3c001f-519e-4464-bfef-ab0805ef9785",
+      "label": "Completed Encounters",
+      "count": 809,
+      "recordedDate": "2026-03-28",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "37458cd6-4582-45d5-bc77-121fc19175e9",
+      "label": "High Complexity Cases",
+      "count": 127,
+      "recordedDate": "2026-03-28",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "544e2acb-8ebf-476a-9f94-670f8b0a11ab",
+      "label": "Follow-up Required",
+      "count": 309,
+      "recordedDate": "2026-03-28",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "69339f36-0164-4340-9a6f-b87f312dd364",
+      "label": "Active Cases",
+      "count": 1319,
+      "recordedDate": "2026-03-29",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "9f9a6a83-b437-4be1-b06e-ae79f8e9af48",
+      "label": "Pending Referrals",
+      "count": 401,
+      "recordedDate": "2026-03-29",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "148affc3-d215-40c5-b7e9-6d06989ccaa9",
+      "label": "Completed Encounters",
+      "count": 823,
+      "recordedDate": "2026-03-29",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "96af5371-2121-4543-b7d3-2d7cd258231b",
+      "label": "High Complexity Cases",
+      "count": 154,
+      "recordedDate": "2026-03-29",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "0dccdf4d-856b-41b5-a1c5-aabcf0a8a06d",
+      "label": "Follow-up Required",
+      "count": 252,
+      "recordedDate": "2026-03-29",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "206983b2-5520-4a10-955b-198132bc2da7",
+      "label": "Active Cases",
+      "count": 1271,
+      "recordedDate": "2026-03-30",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4b28506e-16fc-492e-8120-0a4d41d08ce2",
+      "label": "Pending Referrals",
+      "count": 378,
+      "recordedDate": "2026-03-30",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "b0af141b-d37f-481c-94bd-565da39ca017",
+      "label": "Completed Encounters",
+      "count": 815,
+      "recordedDate": "2026-03-30",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "516ee6f8-5da9-48d8-b0b7-a1db8bdbddbf",
+      "label": "High Complexity Cases",
+      "count": 161,
+      "recordedDate": "2026-03-30",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "2a37639a-2a87-4236-9d26-b75ca8212595",
+      "label": "Follow-up Required",
+      "count": 269,
+      "recordedDate": "2026-03-30",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "15ef2fa1-8efd-4401-b25c-bb8cb25be1cc",
+      "label": "Active Cases",
+      "count": 1255,
+      "recordedDate": "2026-03-31",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "ce835661-43f4-4bc4-a6e1-6bb60cd22138",
+      "label": "Pending Referrals",
+      "count": 344,
+      "recordedDate": "2026-03-31",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "97a5fca0-abbb-4b47-8c2f-80e24b598478",
+      "label": "Completed Encounters",
+      "count": 804,
+      "recordedDate": "2026-03-31",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "974895f1-4106-479b-bbcc-05b8831919ed",
+      "label": "High Complexity Cases",
+      "count": 162,
+      "recordedDate": "2026-03-31",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "d888b00d-ba91-4e24-b6ed-851308663690",
+      "label": "Follow-up Required",
+      "count": 261,
+      "recordedDate": "2026-03-31",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5b947678-30c4-4c63-9e3e-d70e6762fe90",
+      "label": "Active Cases",
+      "count": 1297,
+      "recordedDate": "2026-04-01",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "16f611ae-9b34-4a3b-8801-16bbd77db943",
+      "label": "Pending Referrals",
+      "count": 377,
+      "recordedDate": "2026-04-01",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "28b7b7b8-ac92-497f-a53a-404ec0ace31f",
+      "label": "Completed Encounters",
+      "count": 817,
+      "recordedDate": "2026-04-01",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "42609816-c466-4e49-85ea-4e3f20288c10",
+      "label": "High Complexity Cases",
+      "count": 153,
+      "recordedDate": "2026-04-01",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "12225234-81dc-4d4a-b878-df75e90f96c0",
+      "label": "Follow-up Required",
+      "count": 296,
+      "recordedDate": "2026-04-01",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "d35fdb14-3379-4e48-ac2c-5878bbe6fabb",
+      "label": "Active Cases",
+      "count": 1229,
+      "recordedDate": "2026-04-02",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "3f66819e-3a78-423a-a99e-c8f5a7dd1524",
+      "label": "Pending Referrals",
+      "count": 355,
+      "recordedDate": "2026-04-02",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "1160103f-f33a-45db-879c-9c3d79a505cc",
+      "label": "Completed Encounters",
+      "count": 814,
+      "recordedDate": "2026-04-02",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "7ce1a131-5e20-49ec-8977-9d278011ee87",
+      "label": "High Complexity Cases",
+      "count": 164,
+      "recordedDate": "2026-04-02",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "d3086ace-8965-4032-bca4-64de6173ae3f",
+      "label": "Follow-up Required",
+      "count": 297,
+      "recordedDate": "2026-04-02",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "a3179a24-13b4-4186-ac8a-3cae2335abcc",
+      "label": "Active Cases",
+      "count": 1240,
+      "recordedDate": "2026-04-03",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "6be326d9-dc4f-4564-9fe6-61dac8fbecc5",
+      "label": "Pending Referrals",
+      "count": 340,
+      "recordedDate": "2026-04-03",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "cea82201-3343-4128-adae-f2cc119e3091",
+      "label": "Completed Encounters",
+      "count": 823,
+      "recordedDate": "2026-04-03",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "6261604b-72b9-42f5-b2e8-66c25cc3e5bc",
+      "label": "High Complexity Cases",
+      "count": 165,
+      "recordedDate": "2026-04-03",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "bf01a272-59b3-4cc4-a000-4f7b47901820",
+      "label": "Follow-up Required",
+      "count": 296,
+      "recordedDate": "2026-04-03",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "ce310b41-de0f-4879-9ed1-587ecfa52f3e",
+      "label": "Active Cases",
+      "count": 1250,
+      "recordedDate": "2026-04-04",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "7f3d8af3-0587-4e92-bea6-b9af1c37c37d",
+      "label": "Pending Referrals",
+      "count": 383,
+      "recordedDate": "2026-04-04",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "e2c54fc4-88c0-41dc-a8d4-97e3cc57d5eb",
+      "label": "Completed Encounters",
+      "count": 751,
+      "recordedDate": "2026-04-04",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "69fd3906-68ff-4a0c-a8f5-4703cd42eec1",
+      "label": "High Complexity Cases",
+      "count": 125,
+      "recordedDate": "2026-04-04",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5f812d82-0f97-4e79-b242-3640b6cfb608",
+      "label": "Follow-up Required",
+      "count": 289,
+      "recordedDate": "2026-04-04",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "05f4efea-a074-417a-af52-854b35b0c028",
+      "label": "Active Cases",
+      "count": 1253,
+      "recordedDate": "2026-04-05",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "a34c0f4b-ad7e-4806-a45c-16b782c713c5",
+      "label": "Pending Referrals",
+      "count": 380,
+      "recordedDate": "2026-04-05",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "d865aa0e-1013-4f00-9737-e1a27b2f00f0",
+      "label": "Completed Encounters",
+      "count": 800,
+      "recordedDate": "2026-04-05",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "dffc2630-3922-48c0-9efa-a15b2664fbfc",
+      "label": "High Complexity Cases",
+      "count": 140,
+      "recordedDate": "2026-04-05",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "31effc32-f72f-4ca0-8d41-f9b4132dcca0",
+      "label": "Follow-up Required",
+      "count": 295,
+      "recordedDate": "2026-04-05",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "edc4d81f-f82d-4d25-b9c4-e035cfa2f3aa",
+      "label": "Active Cases",
+      "count": 1186,
+      "recordedDate": "2026-04-06",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5bc285e2-f6cc-48e8-8111-d823f0c05425",
+      "label": "Pending Referrals",
+      "count": 344,
+      "recordedDate": "2026-04-06",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "6a300dd9-5774-4ada-a109-a93b1a804e28",
+      "label": "Completed Encounters",
+      "count": 728,
+      "recordedDate": "2026-04-06",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "65a71dc1-1a32-45bd-8ef3-14095d1cf1df",
+      "label": "High Complexity Cases",
+      "count": 151,
+      "recordedDate": "2026-04-06",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "903896fa-456c-4268-8145-3a8d2c5a8fe4",
+      "label": "Follow-up Required",
+      "count": 263,
+      "recordedDate": "2026-04-06",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4d705bdb-f2ed-42a6-9c77-6feb450568f3",
+      "label": "Active Cases",
+      "count": 1155,
+      "recordedDate": "2026-04-07",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "313052eb-1e85-46f7-9711-8160aceed0e6",
+      "label": "Pending Referrals",
+      "count": 335,
+      "recordedDate": "2026-04-07",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5c4e8716-1738-4c82-a64b-a219ac6195e9",
+      "label": "Completed Encounters",
+      "count": 737,
+      "recordedDate": "2026-04-07",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "8278ece8-b528-4622-bd3f-b24ef19af6dd",
+      "label": "High Complexity Cases",
+      "count": 118,
+      "recordedDate": "2026-04-07",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "efe47426-087c-49c6-9c95-badbbae740d0",
+      "label": "Follow-up Required",
+      "count": 223,
+      "recordedDate": "2026-04-07",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "bfbff0f5-b078-45e5-bdcf-151ba238b7f7",
+      "label": "Active Cases",
+      "count": 1173,
+      "recordedDate": "2026-04-08",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "06a6500f-c033-4a20-865f-4490e3329874",
+      "label": "Pending Referrals",
+      "count": 316,
+      "recordedDate": "2026-04-08",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "86581b23-8c8a-4b25-a35a-666111095345",
+      "label": "Completed Encounters",
+      "count": 745,
+      "recordedDate": "2026-04-08",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "83703cd6-a0fe-4c10-b8cb-6d76577963c3",
+      "label": "High Complexity Cases",
+      "count": 161,
+      "recordedDate": "2026-04-08",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "d50f7bc5-3036-4d64-ba8e-ea515fdff728",
+      "label": "Follow-up Required",
+      "count": 247,
+      "recordedDate": "2026-04-08",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "abe357cb-ff1f-4859-a4ab-c500d5fba8e9",
+      "label": "Active Cases",
+      "count": 1175,
+      "recordedDate": "2026-04-09",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "f07e29d7-8e72-48a8-9808-37b6f4c0443c",
+      "label": "Pending Referrals",
+      "count": 293,
+      "recordedDate": "2026-04-09",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "335a8286-062f-4674-b880-714f76bc8e6b",
+      "label": "Completed Encounters",
+      "count": 766,
+      "recordedDate": "2026-04-09",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "11805bf7-0577-430a-a0f3-2ae76596fc85",
+      "label": "High Complexity Cases",
+      "count": 132,
+      "recordedDate": "2026-04-09",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4433da04-39be-4312-a241-393b9c9d5292",
+      "label": "Follow-up Required",
+      "count": 277,
+      "recordedDate": "2026-04-09",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "56c8b303-bab9-4dc7-8b71-972da1b00229",
+      "label": "Active Cases",
+      "count": 1147,
+      "recordedDate": "2026-04-10",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4ca183da-552d-4f7a-af3f-23208aea232a",
+      "label": "Pending Referrals",
+      "count": 347,
+      "recordedDate": "2026-04-10",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5c806bfc-b771-4ae4-817a-b7274fa7e923",
+      "label": "Completed Encounters",
+      "count": 710,
+      "recordedDate": "2026-04-10",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "82f585fc-0b3d-49e3-9c80-37c4558420e7",
+      "label": "High Complexity Cases",
+      "count": 99,
+      "recordedDate": "2026-04-10",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "5f1811dd-0218-4320-b3f7-2bed3f49bd6f",
+      "label": "Follow-up Required",
+      "count": 229,
+      "recordedDate": "2026-04-10",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "323c2a97-7e8a-4416-97b6-ecbbdc0daaf6",
+      "label": "Active Cases",
+      "count": 1161,
+      "recordedDate": "2026-04-11",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "19ff60f0-c9e1-409f-9c5c-cb9bfc11c31a",
+      "label": "Pending Referrals",
+      "count": 317,
+      "recordedDate": "2026-04-11",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "6c23ca68-f677-4e12-b8fa-85fb3d2cfd29",
+      "label": "Completed Encounters",
+      "count": 712,
+      "recordedDate": "2026-04-11",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "c21a735e-35f7-4071-864f-2e628c728c6e",
+      "label": "High Complexity Cases",
+      "count": 145,
+      "recordedDate": "2026-04-11",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "b9799f08-4e85-45d7-ad5b-fd27f46c5f26",
+      "label": "Follow-up Required",
+      "count": 265,
+      "recordedDate": "2026-04-11",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4e859bd3-6229-40c2-8184-0a5e84c8d00a",
+      "label": "Active Cases",
+      "count": 1126,
+      "recordedDate": "2026-04-12",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "ab3923f5-0b9e-4126-9f35-5435664866f8",
+      "label": "Pending Referrals",
+      "count": 334,
+      "recordedDate": "2026-04-12",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "8f7a2afe-0fbf-47d2-94ac-fdb731fc90f4",
+      "label": "Completed Encounters",
+      "count": 686,
+      "recordedDate": "2026-04-12",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "a18c2ee5-d615-4f38-b91a-52b0793be844",
+      "label": "High Complexity Cases",
+      "count": 143,
+      "recordedDate": "2026-04-12",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "2cf4a7e1-340a-4fe8-9641-6e85d2b499ec",
+      "label": "Follow-up Required",
+      "count": 263,
+      "recordedDate": "2026-04-12",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "41cbbaed-888e-4721-ab4a-c2c039dcf3aa",
+      "label": "Active Cases",
+      "count": 1133,
+      "recordedDate": "2026-04-13",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "96e939b9-6dad-40e8-837d-f99fdf4f8d69",
+      "label": "Pending Referrals",
+      "count": 310,
+      "recordedDate": "2026-04-13",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "8a98223f-a774-4c40-a0d8-037ce48917ba",
+      "label": "Completed Encounters",
+      "count": 700,
+      "recordedDate": "2026-04-13",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "eceef935-4f71-49bc-b7c0-a10047b70a1b",
+      "label": "High Complexity Cases",
+      "count": 105,
+      "recordedDate": "2026-04-13",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "efbdc16e-e855-47ba-a9d8-47f87efdc8c6",
+      "label": "Follow-up Required",
+      "count": 220,
+      "recordedDate": "2026-04-13",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "41d277be-47e7-49dd-9330-8da720046f3e",
+      "label": "Active Cases",
+      "count": 1081,
+      "recordedDate": "2026-04-14",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "e2e6a83b-586c-4418-a20a-01e63226a181",
+      "label": "Pending Referrals",
+      "count": 281,
+      "recordedDate": "2026-04-14",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "8350bf6b-4279-4432-aea6-6f7f312c0e5e",
+      "label": "Completed Encounters",
+      "count": 668,
+      "recordedDate": "2026-04-14",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "e9d9a2fd-35b9-435f-a294-f3c8c1d38b8c",
+      "label": "High Complexity Cases",
+      "count": 144,
+      "recordedDate": "2026-04-14",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "cc4c76af-06d6-4306-8540-15a6453ec71c",
+      "label": "Follow-up Required",
+      "count": 234,
+      "recordedDate": "2026-04-14",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "cec86b21-637f-456f-a54b-49813cb91192",
+      "label": "Active Cases",
+      "count": 1069,
+      "recordedDate": "2026-04-15",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "423eb415-a8cf-4358-bf59-0b545da4ca66",
+      "label": "Pending Referrals",
+      "count": 319,
+      "recordedDate": "2026-04-15",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "318135ed-d1c8-413f-ab38-c0f668efe191",
+      "label": "Completed Encounters",
+      "count": 707,
+      "recordedDate": "2026-04-15",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "cd8ba2bf-b0da-47b2-b7a6-d10eafb0c6bf",
+      "label": "High Complexity Cases",
+      "count": 138,
+      "recordedDate": "2026-04-15",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "63924885-cac3-4ceb-bcd0-04ba93c2cf81",
+      "label": "Follow-up Required",
+      "count": 230,
+      "recordedDate": "2026-04-15",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "8cc5d6fc-375f-4e74-bf57-bacb1af8edb7",
+      "label": "Active Cases",
+      "count": 1077,
+      "recordedDate": "2026-04-16",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "4fa6e145-0df3-4611-98e4-47c93baf0907",
+      "label": "Pending Referrals",
+      "count": 330,
+      "recordedDate": "2026-04-16",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "08858741-341a-4244-99eb-1bc4a0bbefd8",
+      "label": "Completed Encounters",
+      "count": 687,
+      "recordedDate": "2026-04-16",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "3eac16d4-face-4ae0-8c73-8e0000e94312",
+      "label": "High Complexity Cases",
+      "count": 131,
+      "recordedDate": "2026-04-16",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "e07e7261-e78b-4cde-b459-06374218801d",
+      "label": "Follow-up Required",
+      "count": 242,
+      "recordedDate": "2026-04-16",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "d4757fdc-ca28-4939-ac8f-5697cdcee408",
+      "label": "Active Cases",
+      "count": 1094,
+      "recordedDate": "2026-04-17",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "c290909b-7fa7-455c-a3c9-7b511c7a4d28",
+      "label": "Pending Referrals",
+      "count": 279,
+      "recordedDate": "2026-04-17",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "f6a0b78f-9ad1-4a81-86ea-03c0793c6330",
+      "label": "Completed Encounters",
+      "count": 714,
+      "recordedDate": "2026-04-17",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "084f0975-b8ba-4450-8391-e2d5e80dd45e",
+      "label": "High Complexity Cases",
+      "count": 159,
+      "recordedDate": "2026-04-17",
+      "serviceUnit": "ALL"
+    },
+    {
+      "cohortId": "b64e395a-ae9b-40e2-817e-f683bb36d2db",
+      "label": "Follow-up Required",
+      "count": 227,
+      "recordedDate": "2026-04-17",
+      "serviceUnit": "ALL"
+    }
+  ]
+}

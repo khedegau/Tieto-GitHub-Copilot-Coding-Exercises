@@ -1,0 +1,3450 @@
+[
+  {
+    "caseId": "a614e203-5aa1-433f-95a7-e34683c10d74",
+    "patientRef": "PT-100001",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-03T16:24:27.6901338Z",
+    "endDate": "2026-04-13T00:24:27.6901338Z",
+    "totalLeadTimeHours": 224,
+    "stages": [
+      {
+        "stageId": "95250e36-7ebe-4b32-98d4-ff8f0ea1e02c",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-03T16:24:27.6901338Z",
+        "exitedAt": "2026-04-04T15:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "74feaa4c-99be-472c-a182-04bd013cb9ab",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-04T20:24:27.6901338Z",
+        "exitedAt": "2026-04-05T19:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "190aaa8f-c2e4-474b-a3bf-66f5694ef008",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-06T05:24:27.6901338Z",
+        "exitedAt": "2026-04-10T14:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "10911177-e0f4-436e-b99e-25bc9e299d30",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-11T01:24:27.6901338Z",
+        "exitedAt": "2026-04-12T09:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "173addbe-a59b-4bf2-b622-c82505d32c9d",
+    "patientRef": "PT-100058",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-11T17:24:27.6901338Z",
+    "endDate": "2026-04-14T16:24:27.6901338Z",
+    "totalLeadTimeHours": 71,
+    "stages": [
+      {
+        "stageId": "735ed8d4-a6bb-4c13-ae7f-c233f059e336",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T17:24:27.6901338Z",
+        "exitedAt": "2026-04-12T01:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "240ec064-1199-441f-a87d-079e68467218",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-12T05:24:27.6901338Z",
+        "exitedAt": "2026-04-12T19:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "c4a01a03-1d78-4d8e-b072-c455f1ec2bf5",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-12T19:24:27.6901338Z",
+        "exitedAt": "2026-04-13T23:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "58e743ee-1359-4fbb-8a61-cf9e4a0014f5",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-14T03:24:27.6901338Z",
+        "exitedAt": "2026-04-14T09:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "23485558-414f-4de9-8117-3a8572c0a733",
+    "patientRef": "PT-100057",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-28T01:24:27.6901338Z",
+    "endDate": "2026-04-08T17:24:27.6901338Z",
+    "totalLeadTimeHours": 280,
+    "stages": [
+      {
+        "stageId": "0fcf0b6a-02f0-43c0-90dc-dd0581784328",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T01:24:27.6901338Z",
+        "exitedAt": "2026-03-28T18:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5b3ce18b-c483-4002-8ee0-a7fb36c3ab4c",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-29T05:24:27.6901338Z",
+        "exitedAt": "2026-03-31T05:24:27.6901338Z",
+        "waitingTimeHours": 12,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "8838cb88-c819-4cbc-8012-fab2870f1184",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-31T17:24:27.6901338Z",
+        "exitedAt": "2026-04-03T12:24:27.6901338Z",
+        "waitingTimeHours": 37,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b3776c1c-b4de-4c5f-af6d-ad108f668bce",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-05T01:24:27.6901338Z",
+        "exitedAt": "2026-04-07T15:24:27.6901338Z",
+        "waitingTimeHours": 26,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "e6abe188-f13b-4640-aee1-15637d4417f6",
+    "patientRef": "PT-100056",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-31T02:24:27.6901338Z",
+    "endDate": "2026-04-05T13:24:27.6901338Z",
+    "totalLeadTimeHours": 131,
+    "stages": [
+      {
+        "stageId": "4c2e4186-90fc-4539-8d32-85d184d3a2a1",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-31T02:24:27.6901338Z",
+        "exitedAt": "2026-03-31T09:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "69057f6b-2648-4e85-9dc3-6efe1bd4b374",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T13:24:27.6901338Z",
+        "exitedAt": "2026-03-31T17:24:27.6901338Z",
+        "waitingTimeHours": 36,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "311fa4b1-6c0d-47d4-ab47-eb99bbfb3137",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-02T05:24:27.6901338Z",
+        "exitedAt": "2026-04-03T01:24:27.6901338Z",
+        "waitingTimeHours": 34,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "a43195b7-5b46-4729-8465-5dd97fd9557d",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-04T11:24:27.6901338Z",
+        "exitedAt": "2026-04-05T06:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "ee7ccca2-607c-44d8-97b2-5d9ba1f81436",
+    "patientRef": "PT-100055",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "FOLLOW_UP",
+    "startDate": "2026-03-30T12:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 432,
+    "stages": [
+      {
+        "stageId": "90bb73a4-b692-4b1a-a05f-2032a9dd4727",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-30T12:24:27.6901338Z",
+        "exitedAt": "2026-03-31T09:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "58878ad0-13e5-4e4f-a379-7e3745354e3b",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T15:24:27.6901338Z",
+        "exitedAt": "2026-04-03T13:24:27.6901338Z",
+        "waitingTimeHours": 23,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f249aac7-234b-457f-8ba6-3865e738340a",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-04T12:24:27.6901338Z",
+        "exitedAt": "2026-04-10T00:24:27.6901338Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5c4a0822-fe34-40c5-bd6a-14ad58c12c96",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-10T18:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "c23a6b85-3a7c-4246-997b-bb7346b630bb",
+    "patientRef": "PT-100054",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-09T01:24:27.6901338Z",
+    "endDate": "2026-04-12T01:24:27.6901338Z",
+    "totalLeadTimeHours": 72,
+    "stages": [
+      {
+        "stageId": "2d2d089c-dfbd-40cd-8d59-eb4e5f63c356",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-09T01:24:27.6901338Z",
+        "exitedAt": "2026-04-09T09:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "8d27bf82-4287-475c-940e-ba4e984658ab",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-09T13:24:27.6901338Z",
+        "exitedAt": "2026-04-09T22:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "9f6b4d51-9a2b-4525-bcdc-f5e01b0b079a",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-09T22:24:27.6901338Z",
+        "exitedAt": "2026-04-10T12:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "1ebde314-c3c8-4027-a7e0-e5bd992b7ad7",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-10T22:24:27.6901338Z",
+        "exitedAt": "2026-04-11T22:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "f185258b-c8ab-4419-9807-4ffe255bff29",
+    "patientRef": "PT-100053",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-11T05:24:27.6901338Z",
+    "endDate": "2026-04-23T06:24:27.6901338Z",
+    "totalLeadTimeHours": 289,
+    "stages": [
+      {
+        "stageId": "b6b48cd2-7f4e-44f3-b600-ec4a1dc6cd99",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T05:24:27.6901338Z",
+        "exitedAt": "2026-04-12T16:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5e5fa557-9687-47e2-b85a-cb86a79bb533",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-13T08:24:27.6901338Z",
+        "exitedAt": "2026-04-14T20:24:27.6901338Z",
+        "waitingTimeHours": 23,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "0d93f269-2b58-44e3-89ca-9abb87a2d5a1",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-15T19:24:27.6901338Z",
+        "exitedAt": "2026-04-19T08:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "49ee1132-0040-4a5f-bbc4-911e47e2350c",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-20T00:24:27.6901338Z",
+        "exitedAt": "2026-04-22T09:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "609ed44a-f950-439e-83e1-d9aed4b32481",
+    "patientRef": "PT-100052",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-16T06:24:27.6901338Z",
+    "endDate": "2026-04-26T14:24:27.6901338Z",
+    "totalLeadTimeHours": 248,
+    "stages": [
+      {
+        "stageId": "81ddc710-3abb-422c-a825-770a76ea2f73",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-16T06:24:27.6901338Z",
+        "exitedAt": "2026-04-16T11:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "702a3d1b-eed5-4ad5-a19b-2d675c5cefff",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T14:24:27.6901338Z",
+        "exitedAt": "2026-04-17T12:24:27.6901338Z",
+        "waitingTimeHours": 82,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "5f458418-a893-4391-80e4-2f880198ecc9",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-20T22:24:27.6901338Z",
+        "exitedAt": "2026-04-21T16:24:27.6901338Z",
+        "waitingTimeHours": 98,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "46f9e584-8dfc-4cd2-ba5e-9e14598d41ae",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-25T18:24:27.6901338Z",
+        "exitedAt": "2026-04-26T14:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "f65f4ace-081d-4cb3-a71f-b995aafe9c6b",
+    "patientRef": "PT-100059",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-03T13:24:27.6901338Z",
+    "endDate": "2026-04-14T06:24:27.6901338Z",
+    "totalLeadTimeHours": 257,
+    "stages": [
+      {
+        "stageId": "a03829e1-44d6-46ce-994d-a66aa99ea72f",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-03T13:24:27.6901338Z",
+        "exitedAt": "2026-04-04T03:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "12ccdca4-eea0-4fcf-adc2-d3e5f45b7c29",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-04T07:24:27.6901338Z",
+        "exitedAt": "2026-04-05T14:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "767c749d-ac52-40be-a54b-0d6df161cd3d",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-06T06:24:27.6901338Z",
+        "exitedAt": "2026-04-10T00:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c0d2b0f5-2fd7-4927-a624-b0e81fb0ebfa",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-10T21:24:27.6901338Z",
+        "exitedAt": "2026-04-13T14:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "ceaeca47-91e6-4d8c-980d-a83d4467b956",
+    "patientRef": "PT-100051",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-06T13:24:27.6901338Z",
+    "endDate": "2026-04-09T00:24:27.6901338Z",
+    "totalLeadTimeHours": 59,
+    "stages": [
+      {
+        "stageId": "b4ab024f-8d2a-4f50-93fe-8fab4c71ee81",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-06T13:24:27.6901338Z",
+        "exitedAt": "2026-04-06T20:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "07488880-c1cd-4920-a862-6a4ae4cac499",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-06T20:24:27.6901338Z",
+        "exitedAt": "2026-04-06T23:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "46bb5e4a-bb14-43a3-a21e-94f3b4c7e723",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-07T00:24:27.6901338Z",
+        "exitedAt": "2026-04-07T21:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "3652de60-a81f-492a-9253-11c863095fc2",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-08T03:24:27.6901338Z",
+        "exitedAt": "2026-04-08T23:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "5b0e7ab4-c1d7-44e2-bd66-2d28ed83d360",
+    "patientRef": "PT-100049",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-13T21:24:27.6901338Z",
+    "endDate": "2026-04-24T15:24:27.6901338Z",
+    "totalLeadTimeHours": 258,
+    "stages": [
+      {
+        "stageId": "f1866576-dd16-4533-9ac9-fc51bd4ee330",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-13T21:24:27.6901338Z",
+        "exitedAt": "2026-04-14T14:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "0e0d6b42-50d3-4fb9-97ca-1034294fd71a",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-14T21:24:27.6901338Z",
+        "exitedAt": "2026-04-16T00:24:27.6901338Z",
+        "waitingTimeHours": 73,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "3505031d-be59-4d4e-a9a4-ea65522d10b7",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-19T01:24:27.6901338Z",
+        "exitedAt": "2026-04-20T07:24:27.6901338Z",
+        "waitingTimeHours": 61,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "35657ea7-a03a-49c0-9b97-daff619e2d89",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-22T20:24:27.6901338Z",
+        "exitedAt": "2026-04-24T08:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "42bcb662-b8e3-4285-8c1e-d2e35c9d48f5",
+    "patientRef": "PT-100048",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-30T13:24:27.6901338Z",
+    "endDate": "2026-04-16T08:24:27.6901338Z",
+    "totalLeadTimeHours": 403,
+    "stages": [
+      {
+        "stageId": "ca089320-a139-4363-96e8-541d2887f18e",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-30T13:24:27.6901338Z",
+        "exitedAt": "2026-03-31T09:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "fa81e99f-cc29-4ab7-a130-02bfc1b7db69",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T15:24:27.6901338Z",
+        "exitedAt": "2026-04-03T13:24:27.6901338Z",
+        "waitingTimeHours": 32,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5f39ef49-18cc-45eb-a4aa-572855a39646",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-04T21:24:27.6901338Z",
+        "exitedAt": "2026-04-10T01:24:27.6901338Z",
+        "waitingTimeHours": 46,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "05ebc89a-ef93-4700-a839-ae5575c4e246",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-11T23:24:27.6901338Z",
+        "exitedAt": "2026-04-15T02:24:27.6901338Z",
+        "waitingTimeHours": 30,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "4c96ba41-e72a-4fdd-bcd4-8ea19cae9742",
+    "patientRef": "PT-100047",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-28T12:24:27.6901338Z",
+    "endDate": "2026-04-06T12:24:27.6901338Z",
+    "totalLeadTimeHours": 216,
+    "stages": [
+      {
+        "stageId": "7e62cdbf-6f01-4b75-9fe3-2ac8a11a242a",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T12:24:27.6901338Z",
+        "exitedAt": "2026-03-28T18:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "d2cec3fa-fab6-4fdd-afa5-ca0a62f38055",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-29T02:24:27.6901338Z",
+        "exitedAt": "2026-03-30T11:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "b4d52184-42ee-4f09-824f-3a845a2d761a",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-30T15:24:27.6901338Z",
+        "exitedAt": "2026-04-03T14:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "4d934232-b820-4df3-823b-bef1e33ece6d",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-03T22:24:27.6901338Z",
+        "exitedAt": "2026-04-05T20:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      }
+    ]
+  },
+  {
+    "caseId": "d29ce83b-e833-454e-beff-5e54cbacbfbe",
+    "patientRef": "PT-100046",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T00:24:27.6901338Z",
+    "endDate": "2026-04-11T08:24:27.6901338Z",
+    "totalLeadTimeHours": 321,
+    "stages": [
+      {
+        "stageId": "248176aa-53e9-4c13-b8c8-221bf53d263e",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T00:24:27.6901338Z",
+        "exitedAt": "2026-03-30T13:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "cee4b4b2-12ff-4ade-b16d-44f793329e7f",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T20:24:27.6901338Z",
+        "exitedAt": "2026-04-01T14:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "7acded6f-44b0-42fd-869f-f9194e9dc9e8",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-02T06:24:27.6901338Z",
+        "exitedAt": "2026-04-07T04:24:27.6901338Z",
+        "waitingTimeHours": 35,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "0223fbec-f0cb-4677-99ff-8d8c00cb0255",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-08T15:24:27.6901338Z",
+        "exitedAt": "2026-04-10T10:24:27.6901338Z",
+        "waitingTimeHours": 22,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "3cbac07c-5fde-4092-b8be-33c9ebff99c7",
+    "patientRef": "PT-100045",
+    "pathwayType": "URGENT",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-16T10:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 11,
+    "stages": [
+      {
+        "stageId": "ea10c8c2-2dfe-4480-97da-983b4bd110f9",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-16T10:24:27.6901338Z",
+        "exitedAt": "2026-04-16T18:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "8b369ba2-f462-4918-91e9-5228e32ccd13",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T22:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "42ec7bd1-bd52-4e2d-93e7-2a96928a5fc7",
+    "patientRef": "PT-100044",
+    "pathwayType": "URGENT",
+    "currentStage": "FOLLOW_UP",
+    "startDate": "2026-04-14T19:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 55,
+    "stages": [
+      {
+        "stageId": "41e4e66e-3b89-48bf-b364-8db46e31ac78",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T19:24:27.6901338Z",
+        "exitedAt": "2026-04-15T01:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2e25ca61-cccc-4e29-a896-139d88457150",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-15T04:24:27.6901338Z",
+        "exitedAt": "2026-04-15T08:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2da5554d-eb4d-4f24-b134-9a06eb4f0563",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-15T14:24:27.6901338Z",
+        "exitedAt": "2026-04-16T22:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "b82b33e5-4f55-4437-9dc9-a201c8ee5a5f",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-17T02:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "957c240b-2002-4e90-8cad-75094cb80604",
+    "patientRef": "PT-100043",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-11T06:24:27.6901338Z",
+    "endDate": "2026-04-29T00:24:27.6901338Z",
+    "totalLeadTimeHours": 426,
+    "stages": [
+      {
+        "stageId": "fea24ec9-5784-48b3-9a70-6651c84d57e7",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T06:24:27.6901338Z",
+        "exitedAt": "2026-04-13T00:24:27.6901338Z",
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "18261318-6396-4ca3-959c-7458d7085fa6",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-13T13:24:27.6901338Z",
+        "exitedAt": "2026-04-16T11:24:27.6901338Z",
+        "waitingTimeHours": 20,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "81653439-6035-4436-9594-16c0979701a8",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-17T07:24:27.6901338Z",
+        "exitedAt": "2026-04-22T09:24:27.6901338Z",
+        "waitingTimeHours": 43,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "8777f3c2-8f2a-4d3e-8009-895225c04b62",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-24T04:24:27.6901338Z",
+        "exitedAt": "2026-04-28T01:24:27.6901338Z",
+        "waitingTimeHours": 23,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "93f9940a-93da-48c8-978d-5fad6f8a7437",
+    "patientRef": "PT-100050",
+    "pathwayType": "ROUTINE",
+    "currentStage": "EXECUTION",
+    "startDate": "2026-04-04T22:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 300,
+    "stages": [
+      {
+        "stageId": "36b1eb7a-d68e-4092-a543-b7be761c29e5",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-04T22:24:27.6901338Z",
+        "exitedAt": "2026-04-06T00:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "45070139-74ac-420a-add9-6be308e899f7",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-06T08:24:27.6901338Z",
+        "exitedAt": "2026-04-07T15:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "75827de9-7d11-4b09-b467-3c4f9aaec26f",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-07T20:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "d42c9da9-d853-4329-a2a8-5d577f0bff00",
+    "patientRef": "PT-100042",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T11:24:27.6901338Z",
+    "endDate": "2026-04-10T14:24:27.6901338Z",
+    "totalLeadTimeHours": 291,
+    "stages": [
+      {
+        "stageId": "6fc753df-6369-48e4-9b57-ccc84bd2f18b",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T11:24:27.6901338Z",
+        "exitedAt": "2026-03-30T06:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f9a48fdb-ec00-46dc-8109-be112fc6a41d",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T11:24:27.6901338Z",
+        "exitedAt": "2026-03-30T21:24:27.6901338Z",
+        "waitingTimeHours": 93,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b77b8c04-f53a-4444-bc04-7171e1e42127",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-03T18:24:27.6901338Z",
+        "exitedAt": "2026-04-06T10:24:27.6901338Z",
+        "waitingTimeHours": 47,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c329c3c9-10cf-40e6-9038-3e7f48feb2ef",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-08T09:24:27.6901338Z",
+        "exitedAt": "2026-04-10T00:24:27.6901338Z",
+        "waitingTimeHours": 14,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "9e61ddd1-1614-4bb9-8e89-6a4f9bc3c21c",
+    "patientRef": "PT-100060",
+    "pathwayType": "ROUTINE",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-12T22:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 111,
+    "stages": [
+      {
+        "stageId": "9e4686a6-6158-4278-9826-9616b353c8ea",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-12T22:24:27.6901338Z",
+        "exitedAt": "2026-04-13T10:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5e8cc975-88db-4a2a-a5f2-8733067d42b8",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-13T15:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "0e711553-0a1b-4971-a569-d7ea7e6b0481",
+    "patientRef": "PT-100062",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T19:24:27.6901338Z",
+    "endDate": "2026-04-24T08:24:27.6901338Z",
+    "totalLeadTimeHours": 229,
+    "stages": [
+      {
+        "stageId": "0ddfd342-edd5-49db-8cb8-f3141ada2bd7",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T19:24:27.6901338Z",
+        "exitedAt": "2026-04-15T10:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "375559a9-04ed-48cf-958b-5717a88e89b0",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-15T12:24:27.6901338Z",
+        "exitedAt": "2026-04-17T00:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "774e1df8-c537-4ccd-88d5-17f382196806",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-17T06:24:27.6901338Z",
+        "exitedAt": "2026-04-20T03:24:27.6901338Z",
+        "waitingTimeHours": 19,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "1633252d-91e8-41e1-a11e-515583c909d5",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-20T22:24:27.6901338Z",
+        "exitedAt": "2026-04-23T22:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "26ab895c-1bb5-4ce8-a29f-ac5136328362",
+    "patientRef": "PT-100078",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-12T00:24:27.6901338Z",
+    "endDate": "2026-04-27T04:24:27.6901338Z",
+    "totalLeadTimeHours": 364,
+    "stages": [
+      {
+        "stageId": "0898c0aa-306a-46ff-af8a-2ad8fbfd4171",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-12T00:24:27.6901338Z",
+        "exitedAt": "2026-04-12T17:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "072a0023-456b-46ca-86ac-9c51e435b01e",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-13T01:24:27.6901338Z",
+        "exitedAt": "2026-04-13T14:24:27.6901338Z",
+        "waitingTimeHours": 66,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "e9d9f424-47b8-4146-b95e-9b3e5ea575a1",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-16T08:24:27.6901338Z",
+        "exitedAt": "2026-04-20T15:24:27.6901338Z",
+        "waitingTimeHours": 104,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "a9557fe1-dadb-42a9-b114-2164e628ffd9",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-24T23:24:27.6901338Z",
+        "exitedAt": "2026-04-26T18:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "5a232f08-061c-469d-864f-38f412e6dfd9",
+    "patientRef": "PT-100077",
+    "pathwayType": "ROUTINE",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-11T03:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 140,
+    "stages": [
+      {
+        "stageId": "20a9d095-2638-4f06-8890-8196a1e71ef5",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T03:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "2e2d93f0-41f3-4092-bde2-1abd0297479e",
+    "patientRef": "PT-100076",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-28T21:24:27.6901338Z",
+    "endDate": "2026-04-11T13:24:27.6901338Z",
+    "totalLeadTimeHours": 329,
+    "stages": [
+      {
+        "stageId": "bdfb8bdd-e5b4-4af8-9728-3ffa73c7aab1",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T21:24:27.6901338Z",
+        "exitedAt": "2026-03-31T06:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "28ed7efe-cced-47ec-8561-fb5f0aaaf039",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T17:24:27.6901338Z",
+        "exitedAt": "2026-04-02T00:24:27.6901338Z",
+        "waitingTimeHours": 22,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f4f6a19c-37d6-4e39-afda-3ea1c099a939",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-02T22:24:27.6901338Z",
+        "exitedAt": "2026-04-06T04:24:27.6901338Z",
+        "waitingTimeHours": 31,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "e1c6d8c1-7958-4114-bb9f-0a96f69d1752",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-07T11:24:27.6901338Z",
+        "exitedAt": "2026-04-10T07:24:27.6901338Z",
+        "waitingTimeHours": 30,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "3efd58fc-273d-4f67-b836-1883e0035da0",
+    "patientRef": "PT-100075",
+    "pathwayType": "ROUTINE",
+    "currentStage": "PLANNING",
+    "startDate": "2026-03-28T16:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 479,
+    "stages": [
+      {
+        "stageId": "c6d1c073-3ec8-412b-b915-f35bb05ed71b",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T16:24:27.6901338Z",
+        "exitedAt": "2026-03-29T09:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "d8a590b0-45b1-4cf5-9209-d58a924a5454",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-29T13:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 17,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "df5c9e44-f450-443b-829e-121b9713124a",
+    "patientRef": "PT-100074",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-15T00:24:27.6901338Z",
+    "endDate": "2026-04-23T05:24:27.6901338Z",
+    "totalLeadTimeHours": 197,
+    "stages": [
+      {
+        "stageId": "3d3a9556-4b84-4480-9031-df15f667d155",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-15T00:24:27.6901338Z",
+        "exitedAt": "2026-04-15T18:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "faf362c2-60ad-4e29-b9a4-0a3bd766992f",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T05:24:27.6901338Z",
+        "exitedAt": "2026-04-16T15:24:27.6901338Z",
+        "waitingTimeHours": 17,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "083aa69c-e14c-402b-ad95-4c9f0f11bf4d",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-17T08:24:27.6901338Z",
+        "exitedAt": "2026-04-20T03:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "801de5e4-0f4b-45b9-ab05-ea1de9e7c4de",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-20T11:24:27.6901338Z",
+        "exitedAt": "2026-04-22T15:24:27.6901338Z",
+        "waitingTimeHours": 14,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "b333f71b-3474-4162-bb4e-216618bd96ae",
+    "patientRef": "PT-100073",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-28T05:24:27.6901338Z",
+    "endDate": "2026-04-05T13:24:27.6901338Z",
+    "totalLeadTimeHours": 200,
+    "stages": [
+      {
+        "stageId": "36a18598-9c7d-4981-9e3e-42113e4935d9",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T05:24:27.6901338Z",
+        "exitedAt": "2026-03-28T21:24:27.6901338Z",
+        "waitingTimeHours": 12,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "10b1ef9d-b544-4ec7-a2fb-2fb1dbdc88df",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-29T09:24:27.6901338Z",
+        "exitedAt": "2026-03-30T03:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "593867ba-a30d-4404-ac4b-0316a42c7b1c",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-30T10:24:27.6901338Z",
+        "exitedAt": "2026-04-02T04:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b4b48e65-4e1f-4ab9-8626-bb547473783c",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-02T14:24:27.6901338Z",
+        "exitedAt": "2026-04-05T07:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "4d724178-7d91-4a6e-860c-0b2b1b646af3",
+    "patientRef": "PT-100072",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-02T05:24:27.6901338Z",
+    "endDate": "2026-04-05T21:24:27.6901338Z",
+    "totalLeadTimeHours": 88,
+    "stages": [
+      {
+        "stageId": "dd084c0b-f68b-47c4-b3cc-a60c481e24b5",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-02T05:24:27.6901338Z",
+        "exitedAt": "2026-04-02T13:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "d332e8cd-0301-4811-a23f-32dac2160c6f",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-02T17:24:27.6901338Z",
+        "exitedAt": "2026-04-03T01:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "8fcbdcb3-0d43-48af-961d-111e58c21d8c",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-03T04:24:27.6901338Z",
+        "exitedAt": "2026-04-04T13:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "000f6026-184d-407e-b59f-bf8d5b2cc6f6",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-04T23:24:27.6901338Z",
+        "exitedAt": "2026-04-05T18:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "f2914f5f-c355-436b-b546-fa82bb52174d",
+    "patientRef": "PT-100061",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-28T00:24:27.6901338Z",
+    "endDate": "2026-03-30T03:24:27.6901338Z",
+    "totalLeadTimeHours": 51,
+    "stages": [
+      {
+        "stageId": "f12c8010-26fc-49d2-992b-c7a288f9d554",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T00:24:27.6901338Z",
+        "exitedAt": "2026-03-28T02:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c989f29e-5ce9-4f5c-a3bb-c29744b2c1da",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-28T04:24:27.6901338Z",
+        "exitedAt": "2026-03-28T20:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "8187f1af-73bf-4b1d-8f2f-473ec49e3358",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-29T01:24:27.6901338Z",
+        "exitedAt": "2026-03-29T12:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2ae9aed4-0b57-4f07-8d1d-9e45fc06b9b2",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-03-29T16:24:27.6901338Z",
+        "exitedAt": "2026-03-29T23:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "16c0f783-e464-451e-845a-fec9a33f31f9",
+    "patientRef": "PT-100071",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-15T12:24:27.6901338Z",
+    "endDate": "2026-04-23T20:24:27.6901338Z",
+    "totalLeadTimeHours": 200,
+    "stages": [
+      {
+        "stageId": "755f97e9-6a21-4c97-87b6-887036245d26",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-15T12:24:27.6901338Z",
+        "exitedAt": "2026-04-16T07:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f29ee315-3a29-466e-a579-2731c4d70d04",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T17:24:27.6901338Z",
+        "exitedAt": "2026-04-17T18:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "6d2894b2-16fb-402e-a225-f34cf0340104",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-17T23:24:27.6901338Z",
+        "exitedAt": "2026-04-20T06:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "bcc4ecb9-58ee-4473-8262-6e4e09a3715b",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-20T22:24:27.6901338Z",
+        "exitedAt": "2026-04-23T15:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      }
+    ]
+  },
+  {
+    "caseId": "239042f6-ed21-48ef-a2fe-8d70a83debb8",
+    "patientRef": "PT-100069",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T13:24:27.6901338Z",
+    "endDate": "2026-04-17T20:24:27.6901338Z",
+    "totalLeadTimeHours": 463,
+    "stages": [
+      {
+        "stageId": "c771b3dc-bca4-436c-b68d-0b5f519bde88",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T13:24:27.6901338Z",
+        "exitedAt": "2026-03-30T20:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "63ac257e-d3ac-446f-8019-c98d0036fea9",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T02:24:27.6901338Z",
+        "exitedAt": "2026-04-02T21:24:27.6901338Z",
+        "waitingTimeHours": 31,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "b58ae6d0-14fb-4d13-81b1-a39472afbc95",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-04T04:24:27.6901338Z",
+        "exitedAt": "2026-04-10T12:24:27.6901338Z",
+        "waitingTimeHours": 41,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "af8eda0c-ec34-4acf-b378-d5b42eaad383",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-12T05:24:27.6901338Z",
+        "exitedAt": "2026-04-16T12:24:27.6901338Z",
+        "waitingTimeHours": 32,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      }
+    ]
+  },
+  {
+    "caseId": "81c7cba2-6e95-4a76-8800-88aa7c73630a",
+    "patientRef": "PT-100068",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-16T15:24:27.6901338Z",
+    "endDate": "2026-04-24T10:24:27.6901338Z",
+    "totalLeadTimeHours": 187,
+    "stages": [
+      {
+        "stageId": "8f40345b-6939-42b4-898a-1a82e9a67cbf",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-16T15:24:27.6901338Z",
+        "exitedAt": "2026-04-17T15:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "d18cd8d4-b4b2-46ad-8834-11d081f3283e",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-18T02:24:27.6901338Z",
+        "exitedAt": "2026-04-19T13:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "89355683-761a-4615-8802-687ceaf013e7",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-20T00:24:27.6901338Z",
+        "exitedAt": "2026-04-22T01:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "3446b095-385f-4a50-84e4-8d1f104aa72e",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-22T16:24:27.6901338Z",
+        "exitedAt": "2026-04-23T23:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "874baf03-b6cd-4560-ad2c-8bc0b746dd88",
+    "patientRef": "PT-100067",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-05T02:24:27.6901338Z",
+    "endDate": "2026-04-15T07:24:27.6901338Z",
+    "totalLeadTimeHours": 245,
+    "stages": [
+      {
+        "stageId": "f583e2d6-a310-46d7-83ad-fa79b79404dd",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-05T02:24:27.6901338Z",
+        "exitedAt": "2026-04-05T23:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "6ad164ab-1ef8-4321-8901-d2a516494b6b",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-06T10:24:27.6901338Z",
+        "exitedAt": "2026-04-09T09:24:27.6901338Z",
+        "waitingTimeHours": 22,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "32c79b40-f717-4a86-a129-1b71b37fa8ff",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-10T07:24:27.6901338Z",
+        "exitedAt": "2026-04-12T12:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "19555a81-30e9-4e76-8e0d-55b5764583a4",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-13T09:24:27.6901338Z",
+        "exitedAt": "2026-04-14T16:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "5c78727c-09c7-4f01-819e-8251f0953fd8",
+    "patientRef": "PT-100066",
+    "pathwayType": "ROUTINE",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-10T14:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 167,
+    "stages": [
+      {
+        "stageId": "39ecfb20-4f44-43ff-8628-90f8beb5af99",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-10T14:24:27.6901338Z",
+        "exitedAt": "2026-04-10T23:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "ec93b41f-7c2f-436a-8526-f65725187f65",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-11T02:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "7be6ccad-e19c-4452-abef-4bb9581437be",
+    "patientRef": "PT-100065",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "EXECUTION",
+    "startDate": "2026-04-11T06:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 262,
+    "stages": [
+      {
+        "stageId": "dc68c67c-46d5-4849-91c2-fd2f7f67ab51",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T06:24:27.6901338Z",
+        "exitedAt": "2026-04-13T02:24:27.6901338Z",
+        "waitingTimeHours": 12,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "e76b632e-8b85-49d8-a8a0-be24a6fd18fb",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-13T14:24:27.6901338Z",
+        "exitedAt": "2026-04-17T00:24:27.6901338Z",
+        "waitingTimeHours": 97,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "98b8f127-23e9-4575-95c4-563988de568e",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-21T01:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 127,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      }
+    ]
+  },
+  {
+    "caseId": "16168c12-f35d-4144-9369-abddd25c6e61",
+    "patientRef": "PT-100064",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-11T03:24:27.6901338Z",
+    "endDate": "2026-04-19T16:24:27.6901338Z",
+    "totalLeadTimeHours": 205,
+    "stages": [
+      {
+        "stageId": "d620dab5-1a44-4204-9fb0-0cc9ab88ea0f",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T03:24:27.6901338Z",
+        "exitedAt": "2026-04-12T01:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "dc49a912-0a6f-45d5-a3db-7821278ba8e0",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-12T10:24:27.6901338Z",
+        "exitedAt": "2026-04-12T19:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "1596f6c5-508e-42ec-9a37-1fcfc2d4126c",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-13T02:24:27.6901338Z",
+        "exitedAt": "2026-04-15T20:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "0ee8b943-74ab-4f42-ab57-ab3e6dfbbba4",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-16T06:24:27.6901338Z",
+        "exitedAt": "2026-04-19T02:24:27.6901338Z",
+        "waitingTimeHours": 14,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "9ad009ce-dc93-454f-8c5c-7286ca353958",
+    "patientRef": "PT-100063",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-31T06:24:27.6901338Z",
+    "endDate": "2026-04-20T04:24:27.6901338Z",
+    "totalLeadTimeHours": 478,
+    "stages": [
+      {
+        "stageId": "5fc934ad-dbec-4767-9b4c-097dfaca7ee7",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-31T06:24:27.6901338Z",
+        "exitedAt": "2026-04-01T12:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "48221321-529a-425d-9efd-cd57d1a37b07",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-01T18:24:27.6901338Z",
+        "exitedAt": "2026-04-03T03:24:27.6901338Z",
+        "waitingTimeHours": 85,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2668cecb-4300-4f38-bd32-158f6015c88f",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-06T16:24:27.6901338Z",
+        "exitedAt": "2026-04-12T10:24:27.6901338Z",
+        "waitingTimeHours": 92,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c8a7f703-6010-4574-b2ec-2cd1961c5ec7",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-16T06:24:27.6901338Z",
+        "exitedAt": "2026-04-19T02:24:27.6901338Z",
+        "waitingTimeHours": 26,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "e0d6558e-9c4b-4720-9df9-ac92941a2c3a",
+    "patientRef": "PT-100070",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "EXECUTION",
+    "startDate": "2026-04-02T07:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 433,
+    "stages": [
+      {
+        "stageId": "a9a77718-2bf8-4fdb-b0c7-a901f514b395",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-02T07:24:27.6901338Z",
+        "exitedAt": "2026-04-04T02:24:27.6901338Z",
+        "waitingTimeHours": 20,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "10314ee8-fd45-42cc-800d-854636ae7fd4",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-04T22:24:27.6901338Z",
+        "exitedAt": "2026-04-06T22:24:27.6901338Z",
+        "waitingTimeHours": 120,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "75d9485b-0a85-4c69-90ec-c16ca2428919",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-11T22:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 83,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      }
+    ]
+  },
+  {
+    "caseId": "89f33fc3-3086-43e4-8894-61418d6a71c4",
+    "patientRef": "PT-100041",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T01:24:27.6901338Z",
+    "endDate": "2026-04-11T00:24:27.6901338Z",
+    "totalLeadTimeHours": 311,
+    "stages": [
+      {
+        "stageId": "206cc4d7-8dd5-4edd-a341-c52710c5a7d2",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T01:24:27.6901338Z",
+        "exitedAt": "2026-03-30T10:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "d624a98c-09d1-465a-9367-0580c15b976d",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T18:24:27.6901338Z",
+        "exitedAt": "2026-04-01T07:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "488392ed-e659-4c4a-ac36-6095fcc3f929",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-02T04:24:27.6901338Z",
+        "exitedAt": "2026-04-05T20:24:27.6901338Z",
+        "waitingTimeHours": 38,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "eb5a1316-5e9e-48f4-8e77-7abb7e03a313",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-07T10:24:27.6901338Z",
+        "exitedAt": "2026-04-10T15:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "7d01a7b0-09b7-4df5-b9a9-7911dc2c6e5e",
+    "patientRef": "PT-100040",
+    "pathwayType": "ROUTINE",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-16T10:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 22,
+    "stages": [
+      {
+        "stageId": "ae6b01f5-5859-4a49-a538-267122d5b81b",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-16T10:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "be01dec6-45e5-4dc2-ad8b-1a4421e0d8d8",
+    "patientRef": "PT-100039",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-27T17:24:27.6901338Z",
+    "endDate": "2026-04-20T16:24:27.6901338Z",
+    "totalLeadTimeHours": 576,
+    "stages": [
+      {
+        "stageId": "ff2500dc-b604-43dc-852d-3c4a95f0d5da",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-27T17:24:27.6901338Z",
+        "exitedAt": "2026-03-29T15:24:27.6901338Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "f8dd90c5-eb43-4c5e-8309-cce40baeb7eb",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T09:24:27.6901338Z",
+        "exitedAt": "2026-04-02T23:24:27.6901338Z",
+        "waitingTimeHours": 73,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "ae09fbe3-7a40-476c-8080-bbb4353b7c26",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-06T00:24:27.6901338Z",
+        "exitedAt": "2026-04-12T19:24:27.6901338Z",
+        "waitingTimeHours": 93,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "a3f166f4-a0b2-4d0a-a7d4-57fa3afbed5c",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-16T16:24:27.6901338Z",
+        "exitedAt": "2026-04-20T02:24:27.6901338Z",
+        "waitingTimeHours": 14,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "252355f1-895f-439b-a26d-f71cbbcfc706",
+    "patientRef": "PT-100017",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-30T04:24:27.6901338Z",
+    "endDate": "2026-04-11T06:24:27.6901338Z",
+    "totalLeadTimeHours": 290,
+    "stages": [
+      {
+        "stageId": "2ada3ea9-8b81-420b-98ca-c430b213cc7d",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-30T04:24:27.6901338Z",
+        "exitedAt": "2026-03-31T02:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "a7c1f5e7-2f94-4a6b-9b58-f61e20544ff2",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T10:24:27.6901338Z",
+        "exitedAt": "2026-04-02T17:24:27.6901338Z",
+        "waitingTimeHours": 30,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "4296f8ed-9e95-4015-8140-a6229308fc50",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-03T23:24:27.6901338Z",
+        "exitedAt": "2026-04-08T14:24:27.6901338Z",
+        "waitingTimeHours": 29,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "dd69b45d-6c57-4ab1-b07b-d0a0e140ede9",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-09T19:24:27.6901338Z",
+        "exitedAt": "2026-04-10T20:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "7ff5ed4a-6f60-4ce8-84f1-e7b1d9ad435c",
+    "patientRef": "PT-100016",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-15T12:24:27.6901338Z",
+    "endDate": "2026-04-24T07:24:27.6901338Z",
+    "totalLeadTimeHours": 211,
+    "stages": [
+      {
+        "stageId": "2861f547-4f3d-4379-af27-f0e80619e296",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-15T12:24:27.6901338Z",
+        "exitedAt": "2026-04-16T06:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "af4f1f59-3774-4092-b94e-2827a26cd6f2",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T16:24:27.6901338Z",
+        "exitedAt": "2026-04-17T20:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "10283c26-83a8-4b09-ae44-0c958165a1a6",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-18T05:24:27.6901338Z",
+        "exitedAt": "2026-04-21T17:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b2fc2ddf-6ec3-4808-a173-d00eaff3acca",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-22T08:24:27.6901338Z",
+        "exitedAt": "2026-04-23T23:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "5bc47aa8-4f73-4221-9d2e-9bb092c42a5b",
+    "patientRef": "PT-100015",
+    "pathwayType": "URGENT",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-16T17:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 4,
+    "stages": [
+      {
+        "stageId": "02607e00-17d4-4028-9f6d-252f2438f3d7",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-16T17:24:27.6901338Z",
+        "exitedAt": "2026-04-16T21:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "dc54582a-44bb-445a-9610-9a0861f6ab4a",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-17T00:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "8f47dbd6-ff4e-43ce-ba47-943ca24eeae0",
+    "patientRef": "PT-100014",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T09:24:27.6901338Z",
+    "endDate": "2026-04-28T18:24:27.6901338Z",
+    "totalLeadTimeHours": 345,
+    "stages": [
+      {
+        "stageId": "35388a35-694c-4f61-a429-cbd3012b6090",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T09:24:27.6901338Z",
+        "exitedAt": "2026-04-15T02:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "aef17a69-2672-4aa7-9f63-7b419fac5349",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-15T08:24:27.6901338Z",
+        "exitedAt": "2026-04-16T05:24:27.6901338Z",
+        "waitingTimeHours": 90,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "c55263ac-07fe-4bfd-9a6d-089209a5414e",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-19T23:24:27.6901338Z",
+        "exitedAt": "2026-04-22T16:24:27.6901338Z",
+        "waitingTimeHours": 103,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "9e023857-8f91-4c61-beb3-b060f291ec27",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-26T23:24:27.6901338Z",
+        "exitedAt": "2026-04-28T07:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "b5f0204f-8bdd-410c-b09a-0a1d0b172ca9",
+    "patientRef": "PT-100013",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-08T23:24:27.6901338Z",
+    "endDate": "2026-04-27T15:24:27.6901338Z",
+    "totalLeadTimeHours": 448,
+    "stages": [
+      {
+        "stageId": "3f3da8ea-bb94-42fa-b45a-0ee22e40fb00",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-08T23:24:27.6901338Z",
+        "exitedAt": "2026-04-10T18:24:27.6901338Z",
+        "waitingTimeHours": 19,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "02d6cfb3-20c1-44c3-bcf9-6b914df569fb",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-11T13:24:27.6901338Z",
+        "exitedAt": "2026-04-13T19:24:27.6901338Z",
+        "waitingTimeHours": 107,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "aa9800db-f6b8-41da-acd4-320cc821a93c",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-18T06:24:27.6901338Z",
+        "exitedAt": "2026-04-21T11:24:27.6901338Z",
+        "waitingTimeHours": 50,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c5cbffb2-b9b6-4e04-aff9-d2a788afa3d3",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-23T13:24:27.6901338Z",
+        "exitedAt": "2026-04-26T11:24:27.6901338Z",
+        "waitingTimeHours": 28,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "8f1ba5e7-012e-4a18-aeaa-1dfd15d30c07",
+    "patientRef": "PT-100012",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-16T17:24:27.6901338Z",
+    "endDate": "2026-04-19T09:24:27.6901338Z",
+    "totalLeadTimeHours": 64,
+    "stages": [
+      {
+        "stageId": "337f9beb-7d01-44ba-afac-de993efb491a",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-16T17:24:27.6901338Z",
+        "exitedAt": "2026-04-16T23:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "dae4ce96-fbb0-4652-9862-46d13072469b",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T23:24:27.6901338Z",
+        "exitedAt": "2026-04-17T06:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "7d0b0c2d-3610-4542-8c11-f40fa3600f23",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-17T10:24:27.6901338Z",
+        "exitedAt": "2026-04-18T01:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "04a205c5-67c3-4490-ac08-d98a2425fa8f",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-18T08:24:27.6901338Z",
+        "exitedAt": "2026-04-19T07:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "b2bc38c5-0d5b-48c6-b989-bd4620b7ce96",
+    "patientRef": "PT-100011",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "FOLLOW_UP",
+    "startDate": "2026-04-14T06:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 83,
+    "stages": [
+      {
+        "stageId": "50ce4a7e-8dd5-4265-b822-0fdfbbcb54a5",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T06:24:27.6901338Z",
+        "exitedAt": "2026-04-16T06:24:27.6901338Z",
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "ca99c7e6-54a0-4d30-8b55-29887fd9f7fa",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T19:24:27.6901338Z",
+        "exitedAt": "2026-04-18T14:24:27.6901338Z",
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "7033fcf8-8ab5-4d02-b0db-fb838a18999e",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-19T03:24:27.6901338Z",
+        "exitedAt": "2026-04-25T01:24:27.6901338Z",
+        "waitingTimeHours": 28,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "1e162584-8fbb-4432-b38e-984ffb2a9acf",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-26T05:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 20,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "6db164e7-2000-4dff-a2a9-64b89e389e4c",
+    "patientRef": "PT-100018",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T03:24:27.6901338Z",
+    "endDate": "2026-04-11T06:24:27.6901338Z",
+    "totalLeadTimeHours": 315,
+    "stages": [
+      {
+        "stageId": "3d2a5bfa-d7a3-4718-b8c1-309927990c2a",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T03:24:27.6901338Z",
+        "exitedAt": "2026-03-31T01:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f4ad84af-bf44-4ed5-a2e7-28e796e0b163",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-31T17:24:27.6901338Z",
+        "exitedAt": "2026-04-02T06:24:27.6901338Z",
+        "waitingTimeHours": 29,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "63b74c71-1a57-4c96-ad94-4f02197f8ca2",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-03T11:24:27.6901338Z",
+        "exitedAt": "2026-04-07T08:24:27.6901338Z",
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "9fe502b9-7bf5-4f0d-9ec2-781be17802ff",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-07T21:24:27.6901338Z",
+        "exitedAt": "2026-04-10T20:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "e00d92a5-3420-4c2b-ada5-06a7e7cd796b",
+    "patientRef": "PT-100010",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-03T23:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 327,
+    "stages": [
+      {
+        "stageId": "2421173a-e5cb-4d66-b136-55e8775929ed",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-03T23:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 17,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "525cc385-a538-4f51-9745-b9f6f4795c80",
+    "patientRef": "PT-100008",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-07T03:24:27.6901338Z",
+    "endDate": "2026-04-14T04:24:27.6901338Z",
+    "totalLeadTimeHours": 169,
+    "stages": [
+      {
+        "stageId": "6e091fd2-657b-4195-8dff-cf6e5954aaca",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-07T03:24:27.6901338Z",
+        "exitedAt": "2026-04-07T16:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "4b6ea261-788c-482a-9aad-2f9f8f43d563",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-07T21:24:27.6901338Z",
+        "exitedAt": "2026-04-09T05:24:27.6901338Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "10635473-7054-410c-bffa-2943517e081f",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-09T23:24:27.6901338Z",
+        "exitedAt": "2026-04-11T10:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b1a01768-8ba0-4618-b1da-4a85d5dcdc45",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-12T07:24:27.6901338Z",
+        "exitedAt": "2026-04-13T22:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "6b665f3e-5a4d-4d62-9168-8f143d680470",
+    "patientRef": "PT-100007",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T04:24:27.6901338Z",
+    "endDate": "2026-04-20T19:24:27.6901338Z",
+    "totalLeadTimeHours": 159,
+    "stages": [
+      {
+        "stageId": "7b52917e-b245-4261-ab17-6243756055d3",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T04:24:27.6901338Z",
+        "exitedAt": "2026-04-14T10:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c3e3d202-2472-44a4-ae79-84146cd7d604",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-14T11:24:27.6901338Z",
+        "exitedAt": "2026-04-15T13:24:27.6901338Z",
+        "waitingTimeHours": 56,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "51c9be83-29d2-4cce-8105-9e693b1759d8",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-17T21:24:27.6901338Z",
+        "exitedAt": "2026-04-18T06:24:27.6901338Z",
+        "waitingTimeHours": 37,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5fdd82d8-7b5e-4fd7-9dd1-cf6d904184b3",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-19T19:24:27.6901338Z",
+        "exitedAt": "2026-04-20T19:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "8abf06c7-6940-4f2a-85d6-6e2dd4f2233b",
+    "patientRef": "PT-100006",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-02T05:24:27.6901338Z",
+    "endDate": "2026-04-10T18:24:27.6901338Z",
+    "totalLeadTimeHours": 205,
+    "stages": [
+      {
+        "stageId": "9dd69866-22aa-4b31-8349-b7959aa8955b",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-02T05:24:27.6901338Z",
+        "exitedAt": "2026-04-02T19:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "6a4606d8-22aa-4bdc-9d3f-0f4b07bdcb5e",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-03T06:24:27.6901338Z",
+        "exitedAt": "2026-04-04T13:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "a58ca533-59a6-4247-a872-8d655ee9da19",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-05T05:24:27.6901338Z",
+        "exitedAt": "2026-04-08T14:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "48096626-cd26-4400-b95c-b8a0530c0e08",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-08T23:24:27.6901338Z",
+        "exitedAt": "2026-04-10T10:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "a5137adb-28b9-4e4f-b44f-bd8b48055aa2",
+    "patientRef": "PT-100005",
+    "pathwayType": "URGENT",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-06T09:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 252,
+    "stages": [
+      {
+        "stageId": "01359618-688d-470d-8997-7c9727399ea0",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-06T09:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "21bfe729-063d-4d63-9a0f-aa1515fd1b5a",
+    "patientRef": "PT-100004",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T03:24:27.6901338Z",
+    "endDate": "2026-04-24T00:24:27.6901338Z",
+    "totalLeadTimeHours": 237,
+    "stages": [
+      {
+        "stageId": "58161bdf-23e3-4d39-8a80-c6974b927c58",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T03:24:27.6901338Z",
+        "exitedAt": "2026-04-14T22:24:27.6901338Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c072086e-3498-4e85-b225-a2b999acc1fe",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-15T16:24:27.6901338Z",
+        "exitedAt": "2026-04-18T07:24:27.6901338Z",
+        "waitingTimeHours": 20,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "7c3764d7-2271-4109-8a16-8019b79bd605",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-19T03:24:27.6901338Z",
+        "exitedAt": "2026-04-21T04:24:27.6901338Z",
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "d0f1ec67-8e2b-4182-9256-c929a70d622c",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-21T17:24:27.6901338Z",
+        "exitedAt": "2026-04-23T01:24:27.6901338Z",
+        "waitingTimeHours": 23,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "b827f6e0-3732-4bb9-ad87-d336c1520609",
+    "patientRef": "PT-100003",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-28T02:24:27.6901338Z",
+    "endDate": "2026-03-31T03:24:27.6901338Z",
+    "totalLeadTimeHours": 74,
+    "stages": [
+      {
+        "stageId": "cccff0fd-77b9-4920-9f30-39036f019b65",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-28T02:24:27.6901338Z",
+        "exitedAt": "2026-03-28T06:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "0aa597e0-7ea4-407a-adf0-a128e63d912c",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-28T09:24:27.6901338Z",
+        "exitedAt": "2026-03-28T12:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2487ea07-eded-4e5c-8e87-2efeeba6baa6",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-28T15:24:27.6901338Z",
+        "exitedAt": "2026-03-29T22:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "4b453908-c90f-4424-9ec1-68828c2b30cd",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-03-30T00:24:27.6901338Z",
+        "exitedAt": "2026-03-30T23:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      }
+    ]
+  },
+  {
+    "caseId": "4d3b64b6-1441-4785-9405-e6a593450246",
+    "patientRef": "PT-100002",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T23:24:27.6901338Z",
+    "endDate": "2026-05-01T19:24:27.6901338Z",
+    "totalLeadTimeHours": 404,
+    "stages": [
+      {
+        "stageId": "4efcd03b-45da-4ee1-92cd-32a2b2794442",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T23:24:27.6901338Z",
+        "exitedAt": "2026-04-16T23:24:27.6901338Z",
+        "waitingTimeHours": 19,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f04a7978-f0ca-4175-8d10-550085c87a0c",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-17T18:24:27.6901338Z",
+        "exitedAt": "2026-04-20T12:24:27.6901338Z",
+        "waitingTimeHours": 36,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "a4be7c01-a0f0-40dd-8eaa-1fbb81e1db2b",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-22T00:24:27.6901338Z",
+        "exitedAt": "2026-04-27T09:24:27.6901338Z",
+        "waitingTimeHours": 24,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "4d18344e-3974-463a-9271-0f0a7e1b7565",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-28T09:24:27.6901338Z",
+        "exitedAt": "2026-04-30T22:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "66743117-e310-4f44-86a2-4e9cdbc0a0db",
+    "patientRef": "PT-100009",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-12T11:24:27.6901338Z",
+    "endDate": "2026-04-15T10:24:27.6901338Z",
+    "totalLeadTimeHours": 71,
+    "stages": [
+      {
+        "stageId": "242efc26-32bd-4967-a264-a41a458c3926",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-12T11:24:27.6901338Z",
+        "exitedAt": "2026-04-12T14:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "ef5f0c38-c861-4d6a-a9c7-6151801f08de",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-12T15:24:27.6901338Z",
+        "exitedAt": "2026-04-13T00:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2f5c991f-74ef-4211-8278-d3f66d198076",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-13T01:24:27.6901338Z",
+        "exitedAt": "2026-04-14T04:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b87fa479-fed2-4c75-ae16-3d7c3866b1cb",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-14T05:24:27.6901338Z",
+        "exitedAt": "2026-04-15T02:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "b72b123d-1088-4c75-9abd-5c84ac3cc53a",
+    "patientRef": "PT-100019",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T17:24:27.6901338Z",
+    "endDate": "2026-04-01T22:24:27.6901338Z",
+    "totalLeadTimeHours": 77,
+    "stages": [
+      {
+        "stageId": "a9d45619-3910-44fd-a3cf-f8db7b43c293",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T17:24:27.6901338Z",
+        "exitedAt": "2026-03-30T01:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c01fdeba-1aed-45a4-ab68-0fb6e5c1ef54",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T04:24:27.6901338Z",
+        "exitedAt": "2026-03-30T19:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "23cf2942-4c20-4f92-9c04-a6d63665b359",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-31T01:24:27.6901338Z",
+        "exitedAt": "2026-03-31T10:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b787d767-031b-4482-bfd3-6c48a13e4382",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-03-31T16:24:27.6901338Z",
+        "exitedAt": "2026-04-01T15:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "243b5831-9dd3-495a-9b94-f14d288b7a6b",
+    "patientRef": "PT-100020",
+    "pathwayType": "ROUTINE",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-13T04:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 96,
+    "stages": [
+      {
+        "stageId": "ddd11cdf-66df-4844-9327-39fcb72f9a18",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-13T04:24:27.6901338Z",
+        "exitedAt": "2026-04-14T00:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5e0d30ed-2dfb-4d95-9e32-5109026b214a",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-14T07:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "5c12338f-63da-44d4-b5ed-0282bd16c43c",
+    "patientRef": "PT-100021",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-03T22:24:27.6901338Z",
+    "endDate": "2026-04-11T07:24:27.6901338Z",
+    "totalLeadTimeHours": 177,
+    "stages": [
+      {
+        "stageId": "754f3376-35da-45b9-9497-07cce3b92a7f",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-03T22:24:27.6901338Z",
+        "exitedAt": "2026-04-04T01:24:27.6901338Z",
+        "waitingTimeHours": 0,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "85c69b06-456d-4596-90fa-f8423408fae5",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-04T01:24:27.6901338Z",
+        "exitedAt": "2026-04-04T06:24:27.6901338Z",
+        "waitingTimeHours": 48,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "7fbb51b1-8aba-42ac-b21b-6101454684f0",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-06T06:24:27.6901338Z",
+        "exitedAt": "2026-04-07T07:24:27.6901338Z",
+        "waitingTimeHours": 75,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "da2cb703-c4ad-4131-84b4-421507162b9e",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-10T10:24:27.6901338Z",
+        "exitedAt": "2026-04-11T01:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "246a6362-0be8-43fd-a7c9-5114a1bd325c",
+    "patientRef": "PT-100038",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-29T01:24:27.6901338Z",
+    "endDate": "2026-04-05T16:24:27.6901338Z",
+    "totalLeadTimeHours": 183,
+    "stages": [
+      {
+        "stageId": "19a18195-049d-467c-a545-694d79cf2197",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-29T01:24:27.6901338Z",
+        "exitedAt": "2026-03-29T23:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "c37b6c86-3b38-4268-bc22-20e528dda89d",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T07:24:27.6901338Z",
+        "exitedAt": "2026-03-30T22:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "e8084619-8c4b-446d-b4b7-3e4d862ecd2e",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-31T07:24:27.6901338Z",
+        "exitedAt": "2026-04-02T07:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "4d717415-df3a-423b-af4d-dd682c1fde60",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-02T16:24:27.6901338Z",
+        "exitedAt": "2026-04-05T06:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "0adea6fc-6b9f-4869-9101-cbc7c7a7e531",
+    "patientRef": "PT-100037",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-12T09:24:27.6901338Z",
+    "endDate": "2026-04-18T22:24:27.6901338Z",
+    "totalLeadTimeHours": 157,
+    "stages": [
+      {
+        "stageId": "cef90095-aa31-492e-a224-b3f44d9761b9",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-12T09:24:27.6901338Z",
+        "exitedAt": "2026-04-12T18:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "60af8017-3ca2-4a48-befb-7efd581d733c",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-12T21:24:27.6901338Z",
+        "exitedAt": "2026-04-14T01:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "2ba06495-9eb4-441d-a912-1d44a5fb05b2",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-14T06:24:27.6901338Z",
+        "exitedAt": "2026-04-16T09:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "be30fe2b-4893-413b-afa8-1e4a2a9b90ff",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-17T01:24:27.6901338Z",
+        "exitedAt": "2026-04-18T09:24:27.6901338Z",
+        "waitingTimeHours": 13,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "a65ffade-8744-4aac-92af-3f8dd334de27",
+    "patientRef": "PT-100036",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-30T05:24:27.6901338Z",
+    "endDate": "2026-04-02T12:24:27.6901338Z",
+    "totalLeadTimeHours": 79,
+    "stages": [
+      {
+        "stageId": "61225280-9f76-4626-a848-8b1dcf05854f",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-30T05:24:27.6901338Z",
+        "exitedAt": "2026-03-30T13:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "281ecefc-0c65-4bf1-9421-8a46c0ce5c4c",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-30T17:24:27.6901338Z",
+        "exitedAt": "2026-03-31T12:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "7381e2f3-8e80-4e72-bf00-10d751ca7bfd",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-03-31T13:24:27.6901338Z",
+        "exitedAt": "2026-04-01T04:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "c8183f55-3716-43b7-9487-c0c9162420ba",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-01T14:24:27.6901338Z",
+        "exitedAt": "2026-04-02T05:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "75e3ac67-07ed-40e1-8f10-c99ec6203fb8",
+    "patientRef": "PT-100035",
+    "pathwayType": "URGENT",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-04T00:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 313,
+    "stages": [
+      {
+        "stageId": "70e54a6e-dce1-4ca5-9b10-5ffd1ddc574e",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-04T00:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 4,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      }
+    ]
+  },
+  {
+    "caseId": "4a2ec6c7-28db-4d0f-884a-699c036fc38f",
+    "patientRef": "PT-100034",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-06T15:24:27.6901338Z",
+    "endDate": "2026-04-19T12:24:27.6901338Z",
+    "totalLeadTimeHours": 309,
+    "stages": [
+      {
+        "stageId": "d660f3a5-f93b-48a8-80f8-6298cb456c83",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-06T15:24:27.6901338Z",
+        "exitedAt": "2026-04-08T07:24:27.6901338Z",
+        "waitingTimeHours": 24,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "979a09a1-e1c4-4bfd-ae0c-9dcb2e529961",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-09T07:24:27.6901338Z",
+        "exitedAt": "2026-04-11T03:24:27.6901338Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "e2b795ac-741e-4ecb-a34e-319c17646033",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-11T21:24:27.6901338Z",
+        "exitedAt": "2026-04-14T05:24:27.6901338Z",
+        "waitingTimeHours": 45,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "cd0781c7-b8df-40fd-a44d-56749146a3ef",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-16T02:24:27.6901338Z",
+        "exitedAt": "2026-04-19T00:24:27.6901338Z",
+        "waitingTimeHours": 12,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "f9ccf4ff-5cd9-4c10-9db5-ecb231112c1b",
+    "patientRef": "PT-100033",
+    "pathwayType": "ROUTINE",
+    "currentStage": "FOLLOW_UP",
+    "startDate": "2026-04-11T13:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 138,
+    "stages": [
+      {
+        "stageId": "d8397942-81b9-4328-a258-8c5f53267d84",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T13:24:27.6901338Z",
+        "exitedAt": "2026-04-12T06:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "9246eed2-59f3-4def-8936-de10f62a29a4",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-12T17:24:27.6901338Z",
+        "exitedAt": "2026-04-13T13:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "5d898638-e82b-49bf-9321-625e7186c96d",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-13T22:24:27.6901338Z",
+        "exitedAt": "2026-04-15T21:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "92e4d1ee-bcca-4bed-b779-db0b627bc5e6",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-16T12:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "4d8edde8-8286-4e35-bd51-999fd16ed090",
+    "patientRef": "PT-100032",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-07T16:24:27.6901338Z",
+    "endDate": "2026-04-10T18:24:27.6901338Z",
+    "totalLeadTimeHours": 74,
+    "stages": [
+      {
+        "stageId": "c6313ccb-b26e-4127-85ee-b3adebb7824b",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-07T16:24:27.6901338Z",
+        "exitedAt": "2026-04-07T21:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "3d5b857d-d176-4b11-9e30-ec1cfb8afd5a",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-07T23:24:27.6901338Z",
+        "exitedAt": "2026-04-08T04:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "84bd2988-de72-4d1d-9aa5-f48764e1b931",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-08T09:24:27.6901338Z",
+        "exitedAt": "2026-04-09T15:24:27.6901338Z",
+        "waitingTimeHours": 1,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "ed9e2367-c044-409d-9ed0-e638d8e56594",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-09T16:24:27.6901338Z",
+        "exitedAt": "2026-04-10T11:24:27.6901338Z",
+        "waitingTimeHours": 7,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "af290bd2-ac1d-4650-bb43-e0e0545ebbd4",
+    "patientRef": "PT-100031",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-05T20:24:27.6901338Z",
+    "endDate": "2026-04-08T10:24:27.6901338Z",
+    "totalLeadTimeHours": 62,
+    "stages": [
+      {
+        "stageId": "f6a535cf-5019-4738-980e-186c1e654fcf",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-05T20:24:27.6901338Z",
+        "exitedAt": "2026-04-06T00:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "f707d387-b4a5-41ac-9125-ca7d8aa37519",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-06T02:24:27.6901338Z",
+        "exitedAt": "2026-04-06T15:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "4fc2ed85-03df-4d7d-98cf-0dcbac978380",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-06T21:24:27.6901338Z",
+        "exitedAt": "2026-04-07T19:24:27.6901338Z",
+        "waitingTimeHours": 6,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "b95b94e0-9f62-457c-970c-cc3dcfa6b0b4",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-08T01:24:27.6901338Z",
+        "exitedAt": "2026-04-08T07:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "46b37646-c08a-471a-9ffa-50f1895e277e",
+    "patientRef": "PT-100030",
+    "pathwayType": "ROUTINE",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-13T05:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 100,
+    "stages": [
+      {
+        "stageId": "49a095ce-54b3-4182-b7e4-e8095c0cb606",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-13T05:24:27.6901338Z",
+        "exitedAt": "2026-04-14T03:24:27.6901338Z",
+        "waitingTimeHours": 9,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "0f96fe09-ee4f-4e9f-801a-3ff16275b194",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-14T12:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 12,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "1ae82016-e69a-4ae8-8684-18d5f8bcbeae",
+    "patientRef": "PT-100029",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-13T22:24:27.6901338Z",
+    "endDate": "2026-04-21T16:24:27.6901338Z",
+    "totalLeadTimeHours": 186,
+    "stages": [
+      {
+        "stageId": "79c39ff8-5328-45aa-9b81-38458c8f842e",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-13T22:24:27.6901338Z",
+        "exitedAt": "2026-04-14T10:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "a8dec617-fc4d-484a-a4df-fe64e4d9ff37",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-14T12:24:27.6901338Z",
+        "exitedAt": "2026-04-14T20:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "3f8f3b2b-8aa2-42ee-acc0-37fa0b53e3d3",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-15T11:24:27.6901338Z",
+        "exitedAt": "2026-04-18T10:24:27.6901338Z",
+        "waitingTimeHours": 12,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "bac8bfdd-5e72-4fe1-9365-cd19b11c83dc",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-18T22:24:27.6901338Z",
+        "exitedAt": "2026-04-21T05:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      }
+    ]
+  },
+  {
+    "caseId": "89a08d6f-999b-4a91-bb6c-4f09e5c3cf3f",
+    "patientRef": "PT-100028",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-03-27T07:24:27.6901338Z",
+    "endDate": "2026-04-19T05:24:27.6901338Z",
+    "totalLeadTimeHours": 551,
+    "stages": [
+      {
+        "stageId": "e48ee877-7584-4768-b0ba-19704affd1df",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-03-27T07:24:27.6901338Z",
+        "exitedAt": "2026-03-28T11:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "635bbd35-40dd-463d-a593-e3c31dec80c1",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-03-28T21:24:27.6901338Z",
+        "exitedAt": "2026-03-30T07:24:27.6901338Z",
+        "waitingTimeHours": 124,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "4db8447d-6ff4-49f6-8ac1-1d054b58db9e",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-04T11:24:27.6901338Z",
+        "exitedAt": "2026-04-11T09:24:27.6901338Z",
+        "waitingTimeHours": 131,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "28743283-6453-44a0-a00b-f4a5ef8ae774",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-16T20:24:27.6901338Z",
+        "exitedAt": "2026-04-18T05:24:27.6901338Z",
+        "waitingTimeHours": 24,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "d2df7d6a-5a9a-487f-bc12-4cedb5f76f89",
+    "patientRef": "PT-100027",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T06:24:27.6901338Z",
+    "endDate": "2026-05-01T19:24:27.6901338Z",
+    "totalLeadTimeHours": 421,
+    "stages": [
+      {
+        "stageId": "f35c056c-7b20-4231-958f-b48ce68f2501",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T06:24:27.6901338Z",
+        "exitedAt": "2026-04-15T07:24:27.6901338Z",
+        "waitingTimeHours": 21,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "4ad10a6a-7c41-4f3f-b3e3-2ba9858260e7",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-16T04:24:27.6901338Z",
+        "exitedAt": "2026-04-18T13:24:27.6901338Z",
+        "waitingTimeHours": 36,
+        "reworkFlag": true,
+        "reworkReason": "Resource unavailable"
+      },
+      {
+        "stageId": "621ad0b7-09f5-410d-a13c-6224d2f77d97",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-20T01:24:27.6901338Z",
+        "exitedAt": "2026-04-26T06:24:27.6901338Z",
+        "waitingTimeHours": 28,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      },
+      {
+        "stageId": "d2c9a760-4d2b-4a18-8bac-3646154ecf99",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-27T10:24:27.6901338Z",
+        "exitedAt": "2026-05-01T02:24:27.6901338Z",
+        "waitingTimeHours": 17,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "8bb5cb11-e1f1-406c-8138-10c0f3f34be4",
+    "patientRef": "PT-100026",
+    "pathwayType": "URGENT",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-11T11:24:27.6901338Z",
+    "endDate": "2026-04-21T18:24:27.6901338Z",
+    "totalLeadTimeHours": 247,
+    "stages": [
+      {
+        "stageId": "4ff1283a-5e54-41c9-ae68-85113168eacb",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-11T11:24:27.6901338Z",
+        "exitedAt": "2026-04-11T17:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "eae50f1b-8705-4d50-92b2-e78abc7a75a7",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-11T19:24:27.6901338Z",
+        "exitedAt": "2026-04-12T21:24:27.6901338Z",
+        "waitingTimeHours": 98,
+        "reworkFlag": true,
+        "reworkReason": "Quality check failed"
+      },
+      {
+        "stageId": "6ef18290-4f50-425c-a97c-0b385ad591d9",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-16T23:24:27.6901338Z",
+        "exitedAt": "2026-04-18T09:24:27.6901338Z",
+        "waitingTimeHours": 70,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "912070eb-3a68-4f73-a3be-cbdc3a950cad",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-21T07:24:27.6901338Z",
+        "exitedAt": "2026-04-21T15:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "3e573a37-07b8-4a2b-9c27-18ecab5d81e1",
+    "patientRef": "PT-100025",
+    "pathwayType": "URGENT",
+    "currentStage": "EXECUTION",
+    "startDate": "2026-04-14T16:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 61,
+    "stages": [
+      {
+        "stageId": "f8dc1d28-ab09-4a30-9525-315be87e83a3",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T16:24:27.6901338Z",
+        "exitedAt": "2026-04-14T22:24:27.6901338Z",
+        "waitingTimeHours": 2,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "4a67e214-2403-44a2-a3d5-006ef4c8687d",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-15T00:24:27.6901338Z",
+        "exitedAt": "2026-04-15T05:24:27.6901338Z",
+        "waitingTimeHours": 5,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "970c9b15-b9d4-4eab-a96d-e4ebe5edb9bd",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-15T10:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "136da7f9-0424-4250-bd63-d9f6de33413f",
+    "patientRef": "PT-100024",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-03T02:24:27.6901338Z",
+    "endDate": "2026-04-10T07:24:27.6901338Z",
+    "totalLeadTimeHours": 173,
+    "stages": [
+      {
+        "stageId": "e7416e06-0f5d-4263-b9f4-58fd514e35d4",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-03T02:24:27.6901338Z",
+        "exitedAt": "2026-04-03T09:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "7dfc66aa-74fc-4cf2-995a-4ee7c55bc387",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-03T13:24:27.6901338Z",
+        "exitedAt": "2026-04-04T21:24:27.6901338Z",
+        "waitingTimeHours": 15,
+        "reworkFlag": true,
+        "reworkReason": "Plan revision requested"
+      },
+      {
+        "stageId": "57adc0b8-012f-4a40-9ab8-fe99d5c70255",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-05T12:24:27.6901338Z",
+        "exitedAt": "2026-04-07T11:24:27.6901338Z",
+        "waitingTimeHours": 10,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "d1899775-316c-47ee-9904-6db58f0402e6",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-07T21:24:27.6901338Z",
+        "exitedAt": "2026-04-09T15:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "0c1d4418-de57-44d0-860b-a1af552de004",
+    "patientRef": "PT-100023",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-08T12:24:27.6901338Z",
+    "endDate": "2026-04-17T00:24:27.6901338Z",
+    "totalLeadTimeHours": 204,
+    "stages": [
+      {
+        "stageId": "25148f46-a5c5-4fe8-9d77-342c661a57dd",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-08T12:24:27.6901338Z",
+        "exitedAt": "2026-04-09T11:24:27.6901338Z",
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "10fd8ff8-5313-4b54-a858-4473d78b1080",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-09T15:24:27.6901338Z",
+        "exitedAt": "2026-04-10T03:24:27.6901338Z",
+        "waitingTimeHours": 14,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "52aa242b-fda3-4b95-aa00-f98c235ca5bf",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-10T17:24:27.6901338Z",
+        "exitedAt": "2026-04-13T18:24:27.6901338Z",
+        "waitingTimeHours": 11,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "a93df9a5-bc43-4e50-a2e4-37eb0d3e1b1e",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-14T05:24:27.6901338Z",
+        "exitedAt": "2026-04-16T12:24:27.6901338Z",
+        "waitingTimeHours": 12,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "d6af4976-3242-4fc3-b906-546d18991f95",
+    "patientRef": "PT-100022",
+    "pathwayType": "URGENT",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-05T13:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 276,
+    "stages": [
+      {
+        "stageId": "4ae546b6-10e6-445d-8279-3ed037dc3b4f",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-05T13:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 4,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "e47276fa-c402-470a-b58d-57147be57f7d",
+    "patientRef": "PT-100079",
+    "pathwayType": "ROUTINE",
+    "currentStage": "COMPLETED",
+    "startDate": "2026-04-14T06:24:27.6901338Z",
+    "endDate": "2026-04-21T09:24:27.6901338Z",
+    "totalLeadTimeHours": 171,
+    "stages": [
+      {
+        "stageId": "9c2619c7-896d-4b0d-b067-20fcfa01d03a",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-14T06:24:27.6901338Z",
+        "exitedAt": "2026-04-14T16:24:27.6901338Z",
+        "waitingTimeHours": 8,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "15f653f0-50f2-445f-b3ac-402940833917",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-15T00:24:27.6901338Z",
+        "exitedAt": "2026-04-16T00:24:27.6901338Z",
+        "waitingTimeHours": 16,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "cd58c295-d499-4df0-a6e0-bd0acd7671ab",
+        "stageName": "EXECUTION",
+        "enteredAt": "2026-04-16T16:24:27.6901338Z",
+        "exitedAt": "2026-04-18T23:24:27.6901338Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": true,
+        "reworkReason": "Missing documentation"
+      },
+      {
+        "stageId": "afe566b4-8ecd-44e1-9182-870826b31857",
+        "stageName": "FOLLOW_UP",
+        "enteredAt": "2026-04-19T17:24:27.6901338Z",
+        "exitedAt": "2026-04-21T06:24:27.6901338Z",
+        "waitingTimeHours": 3,
+        "reworkFlag": false,
+        "reworkReason": null
+      }
+    ]
+  },
+  {
+    "caseId": "98603b3f-aebe-4be7-a8a5-8df81ee6d759",
+    "patientRef": "PT-100080",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-02T22:24:27.6901338Z",
+    "endDate": null,
+    "totalLeadTimeHours": 359,
+    "stages": [
+      {
+        "stageId": "93d7334c-a7f5-4af2-bec2-a63649bd11cf",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-02T22:24:27.6901338Z",
+        "exitedAt": null,
+        "waitingTimeHours": 24,
+        "reworkFlag": true,
+        "reworkReason": "Dependency delay"
+      }
+    ]
+  },
+  {
+    "caseId": "de5cda20-ed48-4642-b41d-08ddcf479ffe",
+    "patientRef": "PT-EDGE-EMPTY",
+    "pathwayType": "ROUTINE",
+    "currentStage": "ASSESSMENT",
+    "startDate": "2026-04-16T22:27:42.3301337Z",
+    "endDate": null,
+    "totalLeadTimeHours": 0,
+    "stages": []
+  },
+  {
+    "caseId": "ddaebb38-d1b0-46d3-b672-70b344b71621",
+    "patientRef": "PT-EDGE-STUCK",
+    "pathwayType": "ELECTIVE",
+    "currentStage": "PLANNING",
+    "startDate": "2026-04-05T00:27:42.3301337Z",
+    "endDate": null,
+    "totalLeadTimeHours": 288,
+    "stages": [
+      {
+        "stageId": "2cddeb72-91f4-42ac-9e4c-5b0e8fd3ef3f",
+        "stageName": "ASSESSMENT",
+        "enteredAt": "2026-04-05T00:27:42.3301337Z",
+        "exitedAt": "2026-04-07T00:27:42.3301337Z",
+        "waitingTimeHours": 18,
+        "reworkFlag": false,
+        "reworkReason": null
+      },
+      {
+        "stageId": "ae480851-731a-4e5a-a4fa-028109f507b5",
+        "stageName": "PLANNING",
+        "enteredAt": "2026-04-07T00:27:42.3301337Z",
+        "exitedAt": null,
+        "waitingTimeHours": 168,
+        "reworkFlag": true,
+        "reworkReason": "Specialist review dependency"
+      }
+    ]
+  }
+]
